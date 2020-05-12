@@ -72,23 +72,15 @@ export const PostTag = styled.div`
     color: #000;
   }
 
-  &.is-misc {
-    background: #47650b;
-  }
-
   &.is-dev {
-    background: #61728f;
-  }
-
-  &.is-svg {
-    background: #7d669e;
+    background: #617222;
   }
 
   &.is-css {
     background: #24809e;
   }
 
-  &.is-jekyll {
+  &.is-html {
     background: #b31917;
   }
 `
