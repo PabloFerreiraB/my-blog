@@ -1,11 +1,11 @@
 ---
-title: Post criado pelo CMS Netlify
+title: Post FAKE criado pelo CMS para testar.
 description: Realizando post de teste
-date: 2020-05-12 03:59:23
+date: 2020-05-13 09:36:44
 thumbnail: /assets/img/lake.jpg
-category: js
-background: #d6ba32
-image: "/assets/img/lake.jpg"
+category: html
+background: "#b31917"
+image: /assets/img/lake.jpg
 ---
 # Dillinger
 
