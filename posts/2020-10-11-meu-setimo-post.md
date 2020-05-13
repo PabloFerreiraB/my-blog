@@ -1,10 +1,11 @@
 ---
-date: 2020-10-11 23:29:05
-title: Meu setimo post de teste
-description: Criando meu setimo post com Markdown.
-category: Teste
-background: "#7AAB13"
-image: "/assets/img/lake.jpg"
+title: "Post 2 FAKE criado pelo CMS para testar "
+description: Criando meu setimo post com Markdown
+date: 2020-05-13 09:46:17
+thumbnail: /assets/img/404.gif
+category: dev
+background: "#617222"
+image: /assets/img/lake.jpg
 ---
 
 # Lorem ipsum
