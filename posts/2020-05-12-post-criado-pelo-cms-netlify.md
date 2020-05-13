@@ -1,7 +1,7 @@
 ---
-title: Post FAKE criado pelo CMS para testar.
+title: Post FAKE criado pelo CMS para testar
 description: Realizando post de teste
-date: 2020-05-13 09:36:44
+date: 2020-05-13T09:36:44.000Z
 thumbnail: /assets/img/lake.jpg
 category: html
 background: "#b31917"
