@@ -36,10 +36,10 @@ collections:
           widget: "select",
           options:
             [
-              { label: "css", value: "24809e" },
-              { label: "js", value: "d6ba32" },
-              { label: "html", value: "b31917" },
-              { label: "dev", value: "617222" },
+              { label: "css", value: "#24809e" },
+              { label: "js", value: "#d6ba32" },
+              { label: "html", value: "#b31917" },
+              { label: "dev", value: "#617222" },
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }

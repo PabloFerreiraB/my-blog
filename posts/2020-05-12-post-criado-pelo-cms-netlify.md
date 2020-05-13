@@ -4,7 +4,8 @@ description: Realizando post de teste
 date: 2020-05-12 03:59:23
 thumbnail: /assets/img/lake.jpg
 category: js
-background: d6ba32
+background: #d6ba32
+image: "/assets/img/lake.jpg"
 ---
 # Dillinger
 

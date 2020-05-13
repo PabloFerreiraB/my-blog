@@ -4,6 +4,7 @@ title: Meu setimo post de teste
 description: Criando meu setimo post com Markdown.
 category: Teste
 background: "#7AAB13"
+image: "/assets/img/lake.jpg"
 ---
 
 # Lorem ipsum
