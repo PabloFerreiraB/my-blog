@@ -7,7 +7,7 @@ export const PostHeader = styled.header`
   max-width: 70rem;
   padding: 5rem 5rem 0;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     padding: 3rem 0 0;
     max-width: 100%;
   `}
@@ -19,7 +19,7 @@ export const PostTitle = styled.h1`
   padding: 0 1.4rem;
   margin: 1rem auto;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     font-size: 2.8rem;
     line-height: 1.1;
     padding: 0 1rem;
@@ -31,7 +31,7 @@ export const PostDescription = styled.h2`
   font-weight: 200;
   padding: 0 1.4rem;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     font-size: 1.6rem;
     line-height: 1.3;
     padding: 0 1rem;
@@ -43,7 +43,7 @@ export const PostDate = styled.p`
   font-weight: 100;
   padding: 0 1.4rem;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     padding: 0 1rem;
   `}
 `
@@ -53,7 +53,7 @@ export const MainContent = styled.section`
   max-width: 70rem;
   padding: 2rem 5rem;
 
-  ${media.lessThan("large")`
+  ${media.lessThan('large')`
     padding: 2rem 0;
     max-width: 100%;
   `}
@@ -75,7 +75,7 @@ export const MainContent = styled.section`
     letter-spacing: 0.069rem;
     padding: 0 1.4rem;
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       padding: 0 1rem;
       word-break: break-word;
     `}
@@ -84,6 +84,7 @@ export const MainContent = styled.section`
   p {
     margin: 0 auto 1.6rem;
   }
+
   h1,
   h2,
   h3,
@@ -91,14 +92,17 @@ export const MainContent = styled.section`
   h5 {
     margin: 2.4rem auto 1rem;
   }
+
   ul,
   ol {
     list-style: disc;
     padding-left: 2.5rem;
     margin: 0 auto 1.6rem;
   }
+
   li {
     padding: 0.625rem 0;
+
     & > ul {
       margin-bottom: 0;
     }
@@ -113,6 +117,7 @@ export const MainContent = styled.section`
 
   img {
     display: block;
+    width: auto;
     max-width: 100%;
     margin: 1.875rem auto;
   }
@@ -121,7 +126,7 @@ export const MainContent = styled.section`
     padding: 0 1.6rem 1.6rem;
     width: 100%;
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       padding: 0 1rem;
     `}
   }
@@ -143,6 +148,7 @@ export const MainContent = styled.section`
   .twitter-tweet {
     margin: 20px auto !important;
   }
+
   h1,
   h2,
   h3,
@@ -156,7 +162,7 @@ export const MainContent = styled.section`
   h1 {
     font-size: 2.8rem;
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       font-size: 1.875rem;
     `}
   }
@@ -164,7 +170,7 @@ export const MainContent = styled.section`
   h2 {
     font-size: 2.1rem;
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       font-size: 1.375rem;
     `}
   }
@@ -172,7 +178,7 @@ export const MainContent = styled.section`
   h3 {
     font-size: 1.6rem;
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       font-size: 1.125rem;
     `}
   }
@@ -197,32 +203,39 @@ export const MainContent = styled.section`
   .gatsby-resp-image-image {
     box-shadow: none !important;
     transition: opacity 0.2s;
+
     &.lazyload {
       opacity: 0;
     }
+
     &.lazyloaded {
       opacity: 1;
       z-index: 3;
     }
   }
+
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;
 
-    ${media.lessThan("large")`
+    ${media.lessThan('large')`
       padding: 0;
     `}
   }
+
   .instagram-media {
     margin: 1rem auto !important;
   }
+
   a {
     border-bottom: 1px dashed var(--highlight);
     color: var(--highlight);
     text-decoration: none;
     transition: opacity 0.5s;
+
     svg {
       color: var(--postColor);
     }
+
     &:hover {
       opacity: 0.8;
     }
