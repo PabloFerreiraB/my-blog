@@ -5,16 +5,23 @@ export const SocialLinksWrapper = styled.nav`
   margin: 2rem auto;
   width: 100%;
 
-  ${media.lessThan("large")`
-     display: none;
+  ${media.lessThan('large')`
+    order: 2;
+    margin: 0 0 1rem;
   `}
 `
 
-export const SocialLinksList = styled.ul`
+export const SocialLinks = styled.ul`
+  display: ${props => (props.showOnMobile ? 'none' : 'flex')};
   align-items: center;
   display: flex;
   justify-content: space-around;
-  list-style: none;
+  list-style: none !important;
+  margin: 0;
+
+  ${media.lessThan('large')`
+    display: ${props => (props.showOnMobile ? 'flex' : 'none')};
+  `}
 `
 
 export const SocialLinksItem = styled.li``
