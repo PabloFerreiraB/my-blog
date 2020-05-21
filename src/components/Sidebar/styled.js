@@ -15,11 +15,12 @@ export const SidebarWrapper = styled.aside`
   text-align: center;
   width: 20rem;
   transition: ${transitions.ALL};
+  border-bottom: 1px solid var(--borders);
 
   ${media.lessThan("large")`
      align-items: flex-start;
      height: auto;
      width: 100%;
-     padding: 1rem 2rem;
+     padding: 1rem;
   `}
 `
