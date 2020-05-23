@@ -7,7 +7,7 @@ module.exports = {
     title: `Pablo Ferreira`,
     position: `Desenvolvedor FullStack`,
     description: `Autodidata e apaixonado por tecnologia.`,
-    author: `@myblog`,
+    author: `@Pablo_Ferreira`,
     siteUrl: `https://pabloferreira.netlify.app/`,
   },
   plugins: [

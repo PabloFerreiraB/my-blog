@@ -15,26 +15,18 @@ const Post = ({
     description,
 }) => (
         <S.PostLink
+            to={slug}
             cover
             direction="right"
             bg={getThemeColor()}
             duration={0.8}
-            to={slug}
         >
             <S.PostWrapper>
                 <S.PostTag background={background}>{category}</S.PostTag>
                 <S.PostInfo>
-                    <S.PostDate>
-                        {date} • {timeToRead} min de leitura
-                    </S.PostDate>
-
-                    <S.PostTitle>
-                        {title}
-                    </S.PostTitle>
-
-                    <S.PostDescription>
-                        {description}
-                    </S.PostDescription>
+                    <S.PostDate>{date} {timeToRead && ` • ${timeToRead} min de leitura`}</S.PostDate>
+                    <S.PostTitle>{title}</S.PostTitle>
+                    <S.PostDescription>{description}</S.PostDescription>
                 </S.PostInfo>
             </S.PostWrapper>
         </S.PostLink>

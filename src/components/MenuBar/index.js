@@ -6,6 +6,7 @@ import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
 import { Bulb as Light } from "@styled-icons/boxicons-regular/Bulb"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { ListUl as List } from "@styled-icons/fa-solid/ListUl"
+import { Menu } from '@styled-icons/remix-fill/Menu'
 
 import getThemeColor from "../../utils/getThemeColor"
 
@@ -28,24 +29,51 @@ const MenuBar = () => {
         window.__onDisplayChange = () => setDisplay(window.__display)
     }, [])
 
+    const openMenu = () => {
+        // setIsMenuOpen(!isMenuOpen)
+    }
+
     return (
         <S.MenuBarWrapper>
-
             <S.MenuBarGroup>
-                <S.MenuBarLink cover direction="right" bg={getThemeColor()} duration={0.8} to="/" title="Voltar para Home">
+                {/* Voltar para Home */}
+                <S.MenuBarLink
+                    to="/"
+                    cover
+                    direction="right"
+                    bg={getThemeColor()}
+                    duration={0.8}
+                    title="Voltar para Home"
+                >
                     <S.MenuBarItem>
                         <Home />
                     </S.MenuBarItem>
                 </S.MenuBarLink>
-
-                <S.MenuBarLink cover direction="right" bg={getThemeColor()} duration={0.8} to="/search/" title="Pesquisar">
+                {/* Pesquisar */}
+                <S.MenuBarLink
+                    to="/search/"
+                    cover
+                    direction="right"
+                    bg={getThemeColor()}
+                    duration={0.8}
+                    title="Pesquisar"
+                >
                     <S.MenuBarItem>
                         <Search />
                     </S.MenuBarItem>
                 </S.MenuBarLink>
             </S.MenuBarGroup>
 
+            <S.MenuBarGroupMobile>
+                <S.MenuBarGroup>
+                    <S.MenuBarItem title="Abrir Menu" onClick={openMenu}>
+                        <Menu />
+                    </S.MenuBarItem>
+                </S.MenuBarGroup>
+            </S.MenuBarGroupMobile>
+
             <S.MenuBarGroup>
+                {/* Mudar o tema */}
                 <S.MenuBarItem title="Mudar o tema"
                     onClick={() => {
                         window.__setPreferredTheme(isDarkMode ? "light" : "dark")
@@ -54,7 +82,7 @@ const MenuBar = () => {
                 >
                     <Light />
                 </S.MenuBarItem>
-
+                {/* Mudar visualização */}
                 <S.MenuBarItem title="Mudar visualização"
                     onClick={() => {
                         window.__setPreferredDisplay(isListMode ? "grid" : "list")
@@ -63,12 +91,11 @@ const MenuBar = () => {
                 >
                     {isListMode ? <Grid /> : <List />}
                 </S.MenuBarItem>
-
+                {/* Ir para o Topo */}
                 <S.MenuBarItem title="Ir para o Topo" onClick={scrollToTop}>
                     <Arrow />
                 </S.MenuBarItem>
             </S.MenuBarGroup>
-
         </S.MenuBarWrapper>
     )
 }

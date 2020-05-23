@@ -41,7 +41,7 @@ function SEO({ description, lang, meta, title, image }) {
       meta={[
         {
           name: `aplication-name`,
-          content: 'Pablo Ferreira Blog'
+          content: 'Pablo Ferreira'
         },
         {
           name: `description`,
