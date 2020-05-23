@@ -19,11 +19,12 @@ export const MenuBarWrapper = styled.aside`
   transition: ${transitions.ALL};
 
   ${media.lessThan("large")`
-    border-top: 1px solid var(--borders);
     bottom: 0;
+    border-top: 1px solid var(--borders);
     flex-direction: row;
     height: auto;
     padding: 0;
+    padding-bottom: env(safe-area-inset-bottom);
     position: fixed;
     width: 100%;
   `}
