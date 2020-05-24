@@ -6,7 +6,7 @@ import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
 import { Bulb as Light } from "@styled-icons/boxicons-regular/Bulb"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { ListUl as List } from "@styled-icons/fa-solid/ListUl"
-import { Menu } from '@styled-icons/remix-fill/Menu'
+import { Menu } from '@styled-icons/boxicons-regular/Menu'
 
 import getThemeColor from "../../utils/getThemeColor"
 
@@ -14,7 +14,7 @@ import * as S from "./styled"
 
 import scrollToTop from '../../utils/scrollToTop';
 
-const MenuBar = () => {
+const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
     const [theme, setTheme] = useState(null)
     const [display, setDisplay] = useState(null)
 
@@ -30,7 +30,7 @@ const MenuBar = () => {
     }, [])
 
     const openMenu = () => {
-        // setIsMenuOpen(!isMenuOpen)
+        setIsMenuOpen(!isMenuOpen)
     }
 
     return (
@@ -96,7 +96,7 @@ const MenuBar = () => {
                     <Arrow />
                 </S.MenuBarItem>
             </S.MenuBarGroup>
-        </S.MenuBarWrapper>
+        </S.MenuBarWrapper >
     )
 }
 

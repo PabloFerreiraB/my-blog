@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import transitions from '../../styles/transitions'
 
@@ -19,8 +20,9 @@ export const MenuBarWrapper = styled.aside`
   transition: ${transitions.ALL};
 
   ${media.lessThan("large")`
-    bottom: 0;
+    border: 0;
     border-top: 1px solid var(--borders);
+    bottom: -3px;
     flex-direction: row;
     height: auto;
     padding: 0;
