@@ -14,7 +14,6 @@ const postQuery = `{
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
           }
-          timeToRead
           excerpt(pruneLength: 5000)
         }
       }
@@ -36,7 +35,7 @@ const queries = [
   {
     query: postQuery,
     transformer: ({ data }) => flatten(data.posts.edges),
-    indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
+    indexName: process.env.ALGOLIA_INDEX_NAME,
     settings,
   },
 ]
