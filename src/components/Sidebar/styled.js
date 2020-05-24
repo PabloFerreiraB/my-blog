@@ -25,7 +25,7 @@ export const SidebarContainer = styled.aside`
     position: inherit;
     width: 100%;
     transform: ${props =>
-      props.isMenuOpen ? 'translateX(0)' : 'translateX(-100vw)'};
+      props.isMenuOpen ? 'translateY(0)' : 'translateY(100vh)'};
   `}
 `
 

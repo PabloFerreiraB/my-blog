@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 import { TransitionPortal } from "gatsby-plugin-transition-link"
 
-import GlobalStyled from "../../styles/global"
+import GlobalStyles from "../../styles/global"
 import Profile from '../Profile'
 import Sidebar from "../Sidebar"
 import MenuBar from "../MenuBar"
@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
 
   return (
     <S.LayoutWrapper>
-      <GlobalStyled />
+      <GlobalStyles />
       <TransitionPortal level="top">
         <Profile
           title={site.siteMetadata.title}

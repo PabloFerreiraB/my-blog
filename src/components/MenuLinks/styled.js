@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import transitions from '../../styles/transitions'
 
