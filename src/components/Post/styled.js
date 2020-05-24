@@ -44,7 +44,7 @@ export const PostLink = styled(AniLink)`
 export const PostTag = styled.div`
   align-items: center;
   background: ${props => props.background ? props.background : 'var(--highlight)'};
-  border-radius: 50%;
+  border-radius: 10%;
   color: var(--white);
   display: flex;
   font-size: 1.2rem;
@@ -55,11 +55,11 @@ export const PostTag = styled.div`
   text-transform: uppercase;
 
   ${media.lessThan("large")`
-    border-radius: 0;
+    border-radius: 5%;
     font-size: 1rem;
     min-height: auto;
-    min-width: auto;
-    padding: .2rem .5rem;
+    min-width: 80px;
+    padding: .3rem .5rem;
     margin-bottom: .7rem;
   `}
 
@@ -102,7 +102,7 @@ export const PostDate = styled.time`
 export const PostTitle = styled.h1`
   font-size: 1.6rem;
   font-weight: 700;
-  margin: 0.2rem 0 0.5rem;
+  margin: 0.5rem 0 0.5rem;
 
   body#grid & {
     line-height: 1.1;
