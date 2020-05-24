@@ -66,13 +66,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Pablo Ferreira Blog`,
+        name: `Pablo Ferreira`,
         short_name: `PabloF`,
         start_url: `/`,
         background_color: `#101E26`,
         theme_color: `#101E26`,
         display: `minimal-ui`,
-        icon: `static/assets/img/profile-photo.jpg`, // This path is relative to the root of the site.
+        icon: `static/assets/img/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sitemap`,
