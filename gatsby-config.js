@@ -66,11 +66,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Pablo Ferreira`,
+        name: ``,
         short_name: `PabloF`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#fff`,
+        theme_color: `#101E26`,
         display: `minimal-ui`,
         icon: `static/assets/img/favicon.png`, // This path is relative to the root of the site.
       },
