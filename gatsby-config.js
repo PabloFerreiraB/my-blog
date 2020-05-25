@@ -67,7 +67,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Pablo Ferreira`,
-        short_name: `PabloF`,
+        short_name: `Pablo Ferreira`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#101E26`,
