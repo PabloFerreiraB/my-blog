@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 import media from 'styled-media-query'
 
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+
+import transitions from './transitions'
+
 export const PostHeader = styled.header`
   color: var(--postColor);
   margin: auto;
@@ -46,6 +50,18 @@ export const PostDate = styled.p`
   ${media.lessThan('large')`
     padding: 0 1rem;
   `}
+`
+
+export const ButtonBack = styled(AniLink)`
+  color: var(--texts);
+  display: flex;
+  text-decoration: none;
+  margin: 0 0 1.5rem 1.5rem;
+  transition: ${transitions.COLOR};
+  
+  &:hover {
+      color: var(--highlight);
+  }
 `
 
 export const MainContent = styled.section`

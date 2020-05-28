@@ -6,12 +6,15 @@ import SEO from "../components/seo"
 import RecommendedPost from "../components/RecommendedPosts"
 import Comments from "../components/Comments"
 
+import getThemeColor from "../utils/getThemeColor"
+
 import {
   PostHeader,
   PostTitle,
   PostDescription,
   PostDate,
-  MainContent
+  MainContent,
+  ButtonBack
 } from '../styles/base'
 
 export default props => {
@@ -26,6 +29,17 @@ export default props => {
         description={post.frontmatter.description}
         image={post.frontmatter.image} />
       <PostHeader>
+
+        <ButtonBack
+          to="/"
+          cover
+          direction="right"
+          bg={getThemeColor()}
+          duration={0.8}
+        >
+          ← Voltar na listagem
+        </ButtonBack>
+
         <PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura.
         </PostDate>
