@@ -59,6 +59,10 @@ export const ButtonBack = styled(AniLink)`
   margin: 0 0 1.5rem 1.5rem;
   transition: ${transitions.COLOR};
   
+  ${media.lessThan('large')`
+    margin: 0 0 1.5rem 1rem;
+  `}
+
   &:hover {
       color: var(--highlight);
   }
