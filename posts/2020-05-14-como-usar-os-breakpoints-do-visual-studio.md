@@ -5,6 +5,8 @@ date: 2020-05-13 11:15:34
 thumbnail: /assets/img/visual_studio.jpg
 category: dev
 background: "#617222"
+image: /assets/img/lake.jpg
+
 ---
 Além do próprio desenvolvimento de um aplicativo é o processo de debugging. Arrisco dizer que nós, desenvolvedores, passamos uma grande porcentagem do nosso tempo *debuggando*os nossos projetos (30 à 40% do tempo talvez ?).\
 \
