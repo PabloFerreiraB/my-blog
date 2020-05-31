@@ -3,16 +3,16 @@ title: Finalmente meu blog está no ar.
 description: Nesse meu primeiro artigo não poderia falar de outra coisa a não
   ser sobre o meu novo site. Falarei um pouco das novas tecnologias que utilizei
   para a criação do mesmo, espero que gostem.
-date: 2020-05-30 10:33:33
+date: 2020-05-30T10:33:33.000Z
 thumbnail: /assets/img/favicon.png
 category: dev
 background: "#617222"
 ---
-Sempre quis ter um blog pessoal, ao decorrer do tempo li diversos artigos em blogs de tanta gente e sempre achei o máximo. Então finalmente parei de só querer e resolvi ir atrás para criar o meu próprio blog e poder falar um pouco de tudo que tenho vontade.
+Sempre quis ter um blog pessoal, ao decorrer do tempo li diversos artigos em blogs de tanta gente e sempre achei o máximo. Então finalmente parei de só querer e resolvi ir atrás para criar o meu próprio blog.
 
-Como gosto bastante de estudar, no dia 26 de novembro de 2019 estava procurando mais um curso na plataforma da [Udemy](https://www.udemy.com/) quando encontrei o [curso](https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/) do Willian Justen lembro que estava entre os mais votados, de cara não conhecia quase nada do que o curso apresentava, mais fui e comprei mesmo assim, ainda bem xD
+No dia 26 de novembro de 2019 estava procurando mais um curso na plataforma da [Udemy](https://www.udemy.com/) quando encontrei o [curso](https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/) do **Willian Justen**, lembro que estava entre os mais votados, de cara não conhecia quase nada do que o curso apresentava, mais fui e comprei mesmo assim, ainda bem 😜
 
-Mais nesse tempo não estava com a cabeça boa para estudar e acabou que mais uma vez parei antes mesmo de começar. Passado quase 2 meses decidi que queria um blog meu e estava decidido em criar um, foi então que comecei a ver o curso mencionado acima e logo nas primeiras aulas gostei tanto que me arrependi de não ter iniciado logo quando o comprei.
+Nessa época não tive forças para começar o curso, pois estava vendo um outro, após quase 2 meses, finalmente comecei o curso mencionado acima e logo nas primeiras aulas gostei tanto que me arrependi de não ter iniciado antes.
 
 ## Mais então, quais tecnologias foram usadas para construir esse blog ?
 
@@ -51,7 +51,7 @@ GraphQL é uma linguagem de consulta que foi criada pelo Facebook. É utilizado 
 
 Utilizei o [Algolia](https://www.algolia.com/) para o sistema de busca do blog, ele simplesmente é fantástico. Seu sistema de busca é bem poderoso e permite buscar por conteúdos dentro dos posts, por sinônimos e também tem um "typo correction", caso a pessoa erre alguma letra mesmo assim ele buscará pela palavra correta. Demais né ?
 
-## Netlify 
+## Netlify
 
 *O Netlify cria, implanta e hospeda sites ou aplicativos estáticos.* Oferece serviços extraordinários para hospedarmos nossos projetos, bem fácil de mexer e com várias coisas que ajuda bastante. Se não conhece corre lá no [site](https://www.netlify.com/) deles e conheça, te garanto que irá gostar.
 
@@ -61,6 +61,8 @@ O Netlify tem também um CMS próprio, que é facilmente de integrar com outras 
 
 ## Conclusão
 
-Então por hoje é só, cada tópico que abordei foi um resumo bem simples, mais espero que seja útil para vocês. \
+Então por hoje é só, gostaria de agradecer ao Willian Justen por toda ajuda que me deu ao longo do curso, tirando todas minhas dúvidas e mostrando diversas vezes meus erros quando enroscava em uma parte rsrs.\
+\
+Os tópicos que abordei foi um resumo bem simples de cada tecnologia, mais espero que tenham gostado e que seja útil para vocês de alguma forma.\
 \
 Até a próxima 😜
