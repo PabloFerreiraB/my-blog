@@ -8,6 +8,8 @@ thumbnail: /assets/img/favicon.png
 category: dev
 background: "#617222"
 ---
+## Introdução
+
 Sempre quis ter um blog pessoal, ao decorrer do tempo li diversos artigos em blogs de tanta gente e sempre achei o máximo. Então finalmente parei de só querer e resolvi ir atrás para criar o meu próprio blog.
 
 No dia 26 de novembro de 2019 estava procurando mais um curso na plataforma da [Udemy](https://www.udemy.com/) quando encontrei o [curso](https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/) do **Willian Justen**, lembro que estava entre os mais votados, de cara não conhecia quase nada do que o curso apresentava, mais fui e comprei mesmo assim, ainda bem 😜
@@ -28,7 +30,7 @@ Nessa época não achei melhor não começar o curso, pois estava vendo um outro
 
 O Gatsby é um SSG (Server Site Generator) open-source baseado em React, onde utiliza o [GraphQL](https://graphql.org/) para consumir conteúdos. Ele possui as funcionalidades do React e várias outras mais que facilitam para criação de sites e aplicações web. Gatsby é um framework bem poderoso, e te permite ter o desenvolvimento com alta performance e rapidez. 
 
-Achei bem legal no Gatsby é que desenvolvemos em React e no build é gerado arquivos estáticos auxiliando no SEO da aplicação, além de ter vários [plugins](https://www.gatsbyjs.org/plugins) que nos ajuda muito, sua [documentação](https://www.gatsbyjs.org/docs/) é realmente muito boa também.
+Achei bem legal no Gatsby é que desenvolvemos em React e no build é gerado arquivos estáticos auxiliando no SEO da aplicação, além de ter vários [plugins](https://www.gatsbyjs.org/plugins) que nos ajuda muito, sua [documentação oficial](https://www.gatsbyjs.org/docs/) é realmente muito boa também.
 
 ## Gatsby Image
 
@@ -52,9 +54,9 @@ Utilizei o [Algolia](https://www.algolia.com/) para o sistema de busca do blog, 
 
 ## Netlify e Netlify CMS
 
-*O Netlify cria, implanta e hospeda sites ou aplicativos estáticos.* Oferece serviços extraordinários para hospedarmos nossos projetos, bem fácil de mexer e com várias coisas que ajuda bastante. Se não conhece corre lá no [site](https://www.netlify.com/) deles e conheça, te garanto que irá gostar.
+**Netlify** - O Netlify cria, implanta e hospeda sites ou aplicativos estáticos, oferece serviços extraordinários para hospedarmos nossos projetos, bem fácil de mexer e com várias coisas que ajuda bastante. Se não conhece corre lá no [site](https://www.netlify.com/) deles e conheça, te garanto que irá gostar.
 
-O Netlify tem também um CMS próprio, que é facilmente de integrar com outras plataformas e muito simples de usar. Com ele adicionei um CMS para meu blog com pouco esforço, algumas linhas apenas.
+**Netlify CMS** - O Netlify tem também um CMS próprio, que é bem fácil de integrar com outras plataformas e muito simples de usar. Com ele consegui adicionar um CMS para meu blog sem muito esforço.
 
 ## Conclusão
 
