@@ -12,7 +12,7 @@ Sempre quis ter um blog pessoal, ao decorrer do tempo li diversos artigos em blo
 
 No dia 26 de novembro de 2019 estava procurando mais um curso na plataforma da [Udemy](https://www.udemy.com/) quando encontrei o [curso](https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/) do **Willian Justen**, lembro que estava entre os mais votados, de cara não conhecia quase nada do que o curso apresentava, mais fui e comprei mesmo assim, ainda bem 😜
 
-Nessa época não tive forças para começar o curso, pois estava vendo um outro, após quase 2 meses, finalmente comecei o curso mencionado acima e logo nas primeiras aulas gostei tanto que me arrependi de não ter iniciado antes.
+Nessa época não achei melhor não começar o curso, pois estava vendo um outro e estava focado nele, após quase 2 meses, finalmente comecei o curso mencionado acima e logo nas primeiras aulas gostei tanto que me arrependi de não ter iniciado antes.
 
 ## Mais então, quais tecnologias foram usadas para construir esse blog ?
 
@@ -22,8 +22,7 @@ Nessa época não tive forças para começar o curso, pois estava vendo um outro
 * [Styled Components](https://www.styled-components.com/)
 * [Styled Icons](https://styled-icons.js.org/)
 * [Algolia](https://www.algolia.com/products/instantsearch/)
-* [Netlify](https://www.netlify.com/)
-* [Netlify CMS](https://www.netlifycms.org/)
+* [Netlify](https://www.netlify.com/) e [Netlify CMS](https://www.netlifycms.org/)
 
 ## O que é Gatsby?
 
@@ -51,11 +50,9 @@ GraphQL é uma linguagem de consulta que foi criada pelo Facebook. É utilizado 
 
 Utilizei o [Algolia](https://www.algolia.com/) para o sistema de busca do blog, ele simplesmente é fantástico. Seu sistema de busca é bem poderoso e permite buscar por conteúdos dentro dos posts, por sinônimos e também tem um "typo correction", caso a pessoa erre alguma letra mesmo assim ele buscará pela palavra correta. Demais né ?
 
-## Netlify
+## Netlify e Netlify CMS
 
 *O Netlify cria, implanta e hospeda sites ou aplicativos estáticos.* Oferece serviços extraordinários para hospedarmos nossos projetos, bem fácil de mexer e com várias coisas que ajuda bastante. Se não conhece corre lá no [site](https://www.netlify.com/) deles e conheça, te garanto que irá gostar.
-
-## Netlify CMS
 
 O Netlify tem também um CMS próprio, que é facilmente de integrar com outras plataformas e muito simples de usar. Com ele adicionei um CMS para meu blog com pouco esforço, algumas linhas apenas.
 
