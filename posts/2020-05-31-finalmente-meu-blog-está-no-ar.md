@@ -60,7 +60,7 @@ Utilizei o [Algolia](https://www.algolia.com/) para o sistema de busca do blog, 
 
 ## Conclusão
 
-Então por hoje é só, gostaria de agradecer ao Willian Justen por toda ajuda que me deu ao longo do curso, tirando todas minhas dúvidas e mostrando diversas vezes meus erros quando enroscava em uma parte rsrs.\
+Então por hoje é só, gostaria de agradecer ao **Willian Justen** por toda ajuda que me deu ao longo do curso, tirando todas minhas dúvidas e mostrando diversas vezes meus erros quando enroscava em uma parte rsrs.\
 \
 Os tópicos que abordei foi um resumo bem simples de cada tecnologia, mais espero que tenham gostado e que seja útil para vocês de alguma forma.\
 \
