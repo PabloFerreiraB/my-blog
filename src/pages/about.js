@@ -34,7 +34,6 @@ const AboutPage = () => (
                 <li>Git</li>
                 <li>MySQL / SQL Server</li>
                 <li>Scrum</li>
-                <li>Algolia</li>
                 <li>Github</li>
                 <li>SEO</li>
             </ul>
