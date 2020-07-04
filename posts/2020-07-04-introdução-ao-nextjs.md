@@ -1,12 +1,12 @@
 ---
-title: Introdução ao NextJS
+title: Introdução ao NextJS - Parte 1
 description: O que é, qual a diferença e quando usar ?
 date: 2020-07-04T03:17:41.000Z
 image: /assets/img/ssr-nextjs-reactjs.png
 category: dev
 background: "#617222"
 ---
-# O que é o NextJS?
+## O que é o NextJS?
 
 O **NextJS** é um Framework Web desenvolvido em **ReactJS** lançado em 2016 por [Guillhermo Rouch](https://github.com/rauchg) (confundador da empresa [Vercel](https://vercel.com/)). Para saber mais sobre o NextJS recomendo acessar o [site oficial](https://nextjs.org/), onde conhecerá melhor e tem até um passo a passa bacana lá para você entende-lo melhor.
 
@@ -16,7 +16,9 @@ Um Framework Web é um sistema opinativo com estrutura e ferramentas já definid
 
 ## Por que usar um Framework Web?
 
-Essa pergunta já foi bastante discutida pela internet a fora, mas acredito que nesse assunto sempre há espaço para mais questionamentos, argumentações e opiniões. Então dando **minha opinião** sobre, vou apontar as vantagens e desvantagens abaixo:
+Essa pergunta já foi bastante discutida pela internet a fora, mas acredito que nesse assunto sempre há espaço para mais questionamentos, argumentações e opiniões.
+
+Então dando minha opinião sobre, vou apontar as vantagens e desvantagens abaixo:
 
 ## Porque usar o NextJS ?
 
@@ -30,9 +32,9 @@ Abaixo listo algumas motivos de porque utilizar o NextJS e não outro framework:
 * Otimizado para produção
 
 Ah ta bom o NextJS parece perfeito né ? Mais no mercado de trabalho ele é usado mesmo ?\
-Bom prefiro listar algumas das grandes empresas que hoje utilizam o NextJS, e deixo por suas próprias conclusões xD
+Bom prefiro listar algumas das grandes empresas que hoje utilizam o NextJS, e deixo por suas próprias conclusões.
 
-**Netflix**, **GitHub**, **Twitch**, **Uber**, **Ticketmaster**, **Trovit**, **Coinbase**, **Scale** entre outras mais...
+**" Netflix**, **GitHub**, **Twitch**, **Uber**, **Ticketmaster**, **Trovit**, **Coinbase**, **Scale** entre outras mais... "
 
 Ai você pode está se perguntando: Mais quais a diferença do NextJS para o Gatsby, Create React App ou qualquer outro framework web ?
 
