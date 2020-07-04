@@ -1,12 +1,12 @@
 ---
-title: Introdução ao NextJS
+title: Introdução ao NextJS - Parte 1
 description: O que é, qual a diferença e quando usar ?
 date: 2020-07-04T03:17:41.000Z
 image: /assets/img/ssr-nextjs-reactjs.png
 category: dev
 background: "#617222"
 ---
-# O que é o NextJS?
+## O que é o NextJS?
 
 O **NextJS** é um Framework Web desenvolvido em **ReactJS** lançado em 2016 por [Guillhermo Rouch](https://github.com/rauchg) (confundador da empresa [Vercel](https://vercel.com/)). Para saber mais sobre o NextJS recomendo acessar o [site oficial](https://nextjs.org/), onde conhecerá melhor e tem até um passo a passa bacana lá para você entende-lo melhor.
 
@@ -16,7 +16,9 @@ Um Framework Web é um sistema opinativo com estrutura e ferramentas já definid
 
 ## Por que usar um Framework Web?
 
-Essa pergunta já foi bastante discutida pela internet a fora, mas acredito que nesse assunto sempre há espaço para mais questionamentos, argumentações e opiniões. Então dando **minha opinião** sobre, vou apontar as vantagens e desvantagens abaixo:
+Essa pergunta já foi bastante discutida pela internet a fora, mas acredito que nesse assunto sempre há espaço para mais questionamentos, argumentações e opiniões.
+
+Então dando minha opinião sobre, vou apontar as vantagens e desvantagens abaixo:
 
 ## Porque usar o NextJS ?
 
@@ -30,9 +32,9 @@ Abaixo listo algumas motivos de porque utilizar o NextJS e não outro framework:
 * Otimizado para produção
 
 Ah ta bom o NextJS parece perfeito né ? Mais no mercado de trabalho ele é usado mesmo ?\
-Bom prefiro listar algumas das grandes empresas que hoje utilizam o NextJS, e deixo por suas próprias conclusões xD
+Bom prefiro listar algumas das grandes empresas que hoje utilizam o NextJS, e deixo por suas próprias conclusões.
 
-**Netflix**, **GitHub**, **Twitch**, **Uber**, **Ticketmaster**, **Trovit**, **Coinbase**, **Scale** entre outras mais...
+``` " Netflix**, **GitHub**, **Twitch**, **Uber**, **Ticketmaster**, **Trovit**, **Coinbase**, **Scale** entre outras mais... "```
 
 Ai você pode está se perguntando: Mais quais a diferença do NextJS para o Gatsby, Create React App ou qualquer outro framework web ?
 
@@ -40,7 +42,7 @@ Antes de apontarmos a diferença aqui, precisamos entender que existem alguns ti
 
 ## Tipo de uma aplicação
 
-* Static Site ( HTML/CSS/JS ) - GatsbyJS
+* Static Site Generation ( HTML/CSS/JS ) - GatsbyJS
 
   Pode ser puro, você escrevendo HTML, CSS, JS ou pode usar um gerador estático, que no caso por exemplo o GatsbyJS faz, que basicamente ele pega os dados de uma API passa durante um processo e cria os arquivos estáticos, que no final é os arquivos HTML, CSS, JS.
 
@@ -55,3 +57,9 @@ Antes de apontarmos a diferença aqui, precisamos entender que existem alguns ti
   Ao contrário do anterior, esse renderiza do lado do Server. O usuário faz a chamada e então ele renderiza do lado do servidor, depois ele entrega para o Client.
 
   ![Server Side Rendering](/assets/img/ssr.png "Server Side Rendering")
+
+## Conclusão
+
+E por hoje é só galera, nessa primeira parte foi explicando o básico sobre o NextJS, e também abordamos sobre os Framework Web. Espero que seja útil para vocês irem aprendendo esses pequenos detalhes. Peço que se puderem, compartilhem com seus amigos, eu estou começando ainda, então é muito importante que vocês me ajudem nesse início.\
+\
+Na segunda parte do post iremos ver as vantagens e desvantagens de cada um: ``` Static Site Generation, Client Site Rendering, Server Side Rendering ```
