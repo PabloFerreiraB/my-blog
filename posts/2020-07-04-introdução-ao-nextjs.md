@@ -33,3 +33,14 @@ Ah ta bom o NextJS parece perfeito né ? Mais no mercado de trabalho ele é usad
 Bom prefiro listar algumas das grandes empresas que hoje utilizam o NextJS, e deixo por suas próprias conclusões xD
 
 **Netflix**, **GitHub**, **Twitch**, **Uber**, **Ticketmaster**, **Trovit**, **Coinbase**, **Scale** entre outras mais...
+
+Ai você pode está se perguntando: Mais quais a diferença do NextJS para o Gatsby, Create React App ou qualquer outro framework web ?
+
+Antes de apontarmos a diferença aqui, precisamos entender que existem alguns tipos de aplicação, então vamos apontar aqui os tipo e entender a diferença.
+
+## Tipo de uma aplicação
+
+* Static Site ( HTML/CSS/JS ) - GatsbyJS
+
+  Pode ser puro, você escrevendo HTML, CSS, JS ou pode usar um gerador estático, que no caso por exemplo o GatsbyJS faz que basicamente eles pegam os dados de uma API passam durante um processo e criam os arquivos estáticos, que no final é os arquivos HTML, CSS, JS.
+*
