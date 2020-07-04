@@ -43,6 +43,8 @@ Antes de apontarmos a diferença aqui, precisamos entender que existem alguns ti
 * Static Site ( HTML/CSS/JS ) - GatsbyJS
 
   Pode ser puro, você escrevendo HTML, CSS, JS ou pode usar um gerador estático, que no caso por exemplo o GatsbyJS faz, que basicamente ele pega os dados de uma API passa durante um processo e cria os arquivos estáticos, que no final é os arquivos HTML, CSS, JS.
+
+  ![Static Site](/assets/img/static-site.png "Static Site")
 * Client Site Rendering ( Single Page Application - SPA )
 
   Como o nome já diz, ele renderiza do lado do Client. Diferente do anterior, agora ele terá os arquivos HTML, CSS, JS onde que o JavaScript irá baixar no browser. Aí ele que vai pegar os dados da API tudo do lado o Client e vai renderizar os dados em tela.
