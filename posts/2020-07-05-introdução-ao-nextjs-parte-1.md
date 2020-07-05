@@ -29,10 +29,10 @@ Abaixo listo algumas motivos de porque utilizar o NextJS e não outro framework:
 * Completamente extensível ( controle completo do Babel/Webpack, plugins )
 * Otimizado para produção
 
-**Ah, então o NextJS é perfeito ?**
+**Ah, então o NextJS é perfeito ?**  
 Não, não existe tecnologia alguma balata de prata.
 
-**Mais no mercado de trabalho ele é usado mesmo ?**
+**Mais no mercado de trabalho ele é usado mesmo ?**  
 Bom, prefiro listar algumas das grandes empresas que hoje utilizam o NextJS, e deixo a conclusão por sua conta.
 
 > **Netflix, GitHub, Twitch, Uber, Ticketmaster, Trovit, Coinbase, Scale** entre outras...
