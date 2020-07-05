@@ -22,13 +22,14 @@ const AboutPage = () => (
             <h2>Habilidades</h2>
             <ul>
                 <li>HTML</li>
-                <li>CSS (Sass, Less)</li>
+                <li>CSS (Sass)</li>
                 <li>Css Frameworks (Bootstrap, Bulma)</li>
                 <li>Design Responsivo (Mobile First)</li>
+                <li>.NET Core</li>
+                <li>Angular</li>
+                <li>Gatsby</li>
                 <li>Javascript (ES6/7)</li>
                 <li>NodeJS</li>
-                <li>Angular</li>
-                <li>.NET Core</li>
                 <li>.NET Framework</li>
                 <li>LINQ e Lambda</li>
                 <li>Git</li>

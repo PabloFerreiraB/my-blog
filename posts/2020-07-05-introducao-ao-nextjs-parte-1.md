@@ -1,11 +1,12 @@
 ---
-title: Introducao ao NextJS - Parte 1
+title: Introdução ao NextJS - Parte 1
 description: O que é, qual a diferença e quando usar ?
 date: 2020-07-04T09:21:50.000Z
 image: /assets/img/ssr-nextjs-reactjs.png
 category: dev
 background: "#617222"
 ---
+
 ## O que é o NextJS?
 
 O **NextJS** é um Framework Web desenvolvido em **ReactJS** lançado em 2016 por [Guillhermo Rouch](https://github.com/rauchg) (confundador da empresa [Vercel](https://vercel.com/)). É mantido pela zeit e pela comunidade open-source, e visa agilizar o processo de construção de um app React oferecendo componentes para rota, suporte a SSR (server side rendering) além de webpack já configurado para React e transpilação de ES6 e ES7 que incluem recursos como async e await. Mesmo com tudo isso, ele mantém o início simples e flexível o bastante pra escalar o projeto para o tamanho que for necessário.
@@ -20,14 +21,14 @@ Trata-se de biblioteca de frontend, embora seja considerada uma estrutura, ele f
 
 ## E porque usar o NextJS ?
 
-Abaixo listo algumas motivos de porque utilizar o NextJS e não outro framework: 
+Abaixo listo algumas motivos de porque utilizar o NextJS e não outro framework:
 
-* Renderização no servidor ( Server Side Rendering - SSR )
-* Geração de estáticos ( Static Site Generation - SSG )
-* CSS-in-JS (Vem com a estrutura em Styled-jsx, mais podemos utilizar qualquer outro como Styled Components, Emotion, etc )
-* Zero Configuration (já tem incluso: rotas, hot reloading, code splitting, etc )
-* Completamente extensível ( controle completo do Babel/Webpack, plugins )
-* Otimizado para produção
+- Renderização no servidor ( Server Side Rendering - SSR )
+- Geração de estáticos ( Static Site Generation - SSG )
+- CSS-in-JS (Vem com a estrutura em Styled-jsx, mais podemos utilizar qualquer outro como Styled Components, Emotion, etc )
+- Zero Configuration (já tem incluso: rotas, hot reloading, code splitting, etc )
+- Completamente extensível ( controle completo do Babel/Webpack, plugins )
+- Otimizado para produção
 
 **Ah, então o NextJS é perfeito ?**<br/>
 Não, não existe tecnologia alguma balata de prata.
@@ -45,19 +46,19 @@ Antes de apontarmos a diferença aqui, precisamos entender que existem alguns ti
 
 > **Static Site Generation ( HTML/CSS/JS )**
 
-  Pode ser puro, você escrevendo HTML, CSS, JS ou pode usar um gerador estático, que no caso por exemplo o GatsbyJS faz, que basicamente ele pega os dados de uma API passa durante um processo e cria os arquivos estáticos, que no final é os arquivos HTML, CSS, JS.
+Pode ser puro, você escrevendo HTML, CSS, JS ou pode usar um gerador estático, que no caso por exemplo o GatsbyJS faz, que basicamente ele pega os dados de uma API passa durante um processo e cria os arquivos estáticos, que no final é os arquivos HTML, CSS, JS.
 
 ![Static Site](/assets/img/ssg.png "Static Site")
 
 > **Client Site Rendering ( CSR / Single Page Application - SPA )**
 
-  Como o nome já diz, ele renderiza do lado do Client. Diferente do anterior, agora ele terá os arquivos HTML, CSS, JS onde que o JavaScript irá baixar no browser. Aí ele que vai pegar os dados da API tudo do lado o Client e vai renderizar os dados em tela.
+Como o nome já diz, ele renderiza do lado do Client. Diferente do anterior, agora ele terá os arquivos HTML, CSS, JS onde que o JavaScript irá baixar no browser. Aí ele que vai pegar os dados da API tudo do lado o Client e vai renderizar os dados em tela.
 
 ![Client Site Rendering](/assets/img/csr.png "Client Site Rendering")
 
 > **Server Side Rendering ( SSR )**
 
-  Ao contrário do anterior, esse renderiza do lado do Server. O usuário faz a chamada e então ele renderiza do lado do servidor, depois ele entrega para o Client.
+Ao contrário do anterior, esse renderiza do lado do Server. O usuário faz a chamada e então ele renderiza do lado do servidor, depois ele entrega para o Client.
 
 ![Server Side Rendering](/assets/img/ssr.png "Server Side Rendering")
 
