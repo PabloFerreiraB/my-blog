@@ -1,5 +1,5 @@
 ---
-title: Introdução ao NextJS - Parte 1
+title: Introducao ao NextJS - Parte 1
 description: O que é, qual a diferença e quando usar ?
 date: 2020-07-04T09:21:50.000Z
 image: /assets/img/ssr-nextjs-reactjs.png
@@ -29,10 +29,10 @@ Abaixo listo algumas motivos de porque utilizar o NextJS e não outro framework:
 * Completamente extensível ( controle completo do Babel/Webpack, plugins )
 * Otimizado para produção
 
-**Ah, então o NextJS é perfeito ?**  
+**Ah, então o NextJS é perfeito ?**
 Não, não existe tecnologia alguma balata de prata.
 
-**Mais no mercado de trabalho ele é usado mesmo ?**  
+**Mais no mercado de trabalho ele é usado mesmo ?**
 Bom, prefiro listar algumas das grandes empresas que hoje utilizam o NextJS, e deixo a conclusão por sua conta.
 
 > **Netflix, GitHub, Twitch, Uber, Ticketmaster, Trovit, Coinbase, Scale** entre outras...
