@@ -9,7 +9,7 @@ background: "#617222"
 
 ## O que é o NextJS?
 
-O **NextJS** é um Framework Web desenvolvido em **ReactJS** lançado em 2016 por [Guillhermo Rouch](https://github.com/rauchg) (confundador da empresa [Vercel](https://vercel.com/)). É mantido pela zeit e pela comunidade open-source, e visa agilizar o processo de construção de um app React oferecendo componentes para rota, suporte a SSR (server side rendering) além de webpack já configurado para React e transpilação de ES6 e ES7 que incluem recursos como async e await. Mesmo com tudo isso, ele mantém o início simples e flexível o bastante pra escalar o projeto para o tamanho que for necessário.
+O **NextJS** é um Framework Web desenvolvido em **ReactJS** lançado em 2016 por [Guillhermo Rouch](https://github.com/rauchg) (confundador da empresa [Vercel](https://vercel.com/)). É mantido pela zeit e pela comunidade open-source, e visa agilizar o processo de construção de um app React oferecendo componentes para rota, suporte a SSR (server side rendering) além de webpack já configurado para React e transpilação de ES6 e ES7 que incluem recursos como async e await. Mesmo com tudo isso, ele mantém o início simples e flexível o bastante pra escalar o projeto para o tamanho que for necessário.tipos e entender as diferenças.
 
 Antes de ver porque utilizarmos o NextJS é proveitoso, vamos entender um pouco sobre o que é um `Framework Web`.
 
@@ -46,19 +46,19 @@ Antes de apontarmos a diferença aqui, precisamos entender que existem alguns ti
 
 > **Static Site Generation ( HTML/CSS/JS )**
 
-Pode ser puro, você escrevendo HTML, CSS, JS ou pode usar um gerador estático, que no caso por exemplo o GatsbyJS faz, que basicamente ele pega os dados de uma API passa durante um processo e cria os arquivos estáticos, que no final é os arquivos HTML, CSS, JS.
+Pode ser puro, você escrevendo HTML, CSS, JS ou pode usar um gerador estático, que no caso por exemplo o GatsbyJS faz, que basicamente ele pega os dados de uma API passa durante um processo e cria os arquivos estáticos, onde no final são arquivos HTML, CSS e JS.
 
 ![Static Site](/assets/img/ssg.png "Static Site")
 
 > **Client Site Rendering ( CSR / Single Page Application - SPA )**
 
-Como o nome já diz, ele renderiza do lado do Client. Diferente do anterior, agora ele terá os arquivos HTML, CSS, JS onde que o JavaScript irá baixar no browser. Aí ele que vai pegar os dados da API tudo do lado o Client e vai renderizar os dados em tela.
+Como o nome já diz, ele renderiza do lado do Client. Diferente do anterior, agora ele terá os arquivos HTML, CSS e JS onde que o JavaScript irá baixar no browser. Após isso ele pegará os dados da API tudo do lado do Client e vai renderizar os dados em tela.
 
 ![Client Site Rendering](/assets/img/csr.png "Client Site Rendering")
 
 > **Server Side Rendering ( SSR )**
 
-Ao contrário do anterior, esse renderiza do lado do Server. O usuário faz a chamada e então ele renderiza do lado do servidor, depois ele entrega para o Client.
+Ao contrário do anterior, esse renderiza do lado do Server. O usuário faz a chamada e então ele renderiza do lado do servidor, depois ele entrega para o Client e será renderizado os dados em tela.
 
 ![Server Side Rendering](/assets/img/ssr.png "Server Side Rendering")
 
@@ -66,4 +66,6 @@ Ao contrário do anterior, esse renderiza do lado do Server. O usuário faz a ch
 
 E por hoje é só galera, nessa primeira parte foi explicando o básico sobre o NextJS, e também abordamos sobre os Framework Web. Espero que seja útil para vocês irem aprendendo esses pequenos detalhes. Peço que se puderem, compartilhem com seus amigos, eu estou começando ainda, então é muito importante que vocês me ajudem nesse início.
 
-Na segunda parte do post iremos ver as vantagens e desvantagens de cada um: **Static Site Generation**, **Client Site Rendering** e **Server Side Rendering**
+Na segunda parte do post iremos ver as vantagens e desvantagens de cada um: O **Static Site Generation**, **Client Site Rendering** e **Server Side Rendering**.<br/>
+
+Até a próxima...
