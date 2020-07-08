@@ -13,7 +13,7 @@ Nessa post retorno para entendermos as vantagens e desvantagens de **Static Site
 
 E o primeiro que veremos será o Static Site Generation. Sem mais enrolação vamos lá.
 
-## Static Site Generation
+## Static Site Generation (SSG)
 
 ### Vantagens
 
@@ -70,7 +70,7 @@ Como o arquivo JavaScript é carregado antes, para então fazer requisições na
 
 Bom, citamos um pouco das vantagens e desvantagens que o *Server Side Rendering* nos oferece. Seguiremos para o próximo e último tipo abaixo.
 
-## Server Side Rendering
+## Server Side Rendering (SSR)
 
 ### Vantagens
 
@@ -80,24 +80,30 @@ Pois tudo é renderizado no lado do servidor. Quando o google abre a página do 
 > - **`Meta tags com previews mais adequados`**.<br/>
 As meta tags já estão com os previews certo, pois como ele consegue fazer toda a parte descrita acima de pegar os dados como, título, descrição, imagens e tudo mais. Logo as meta tags estará correta de acordo com a aquela página em si.
 
-> -- **`Melhor performance para o usuário`**.<br/>
+> - **`Melhor performance para o usuário`**.<br/>
 Isso quer dizer que o conteúdo será visto mais rápido. Como já entregamos tudo pronto, pois foi renderizado tudo no servidor não terá demora.
 
-> --**`Menor processamento do lado do cliente`**.<br/>
+> - **`Menor processamento do lado do cliente`**.<br/>
 Como assim? Como já foi dito acima que tudo é renderizado no servidor, o browser do cliente não terá esforços para exibir o conteúdo em tela. Assim ele tem uma vantagem para dispositivos mais fracos.
 
 ### Desvantagens
 
-> --**`TTFB (Time to first byte) maior`**.<br/>
+> - **`TTFB (Time to first byte) maior`**.<br/>
 Acontece que o servidor irá preparar tudo para antes para entregar todo o conteúdo. Então quando você acessa uma url do site por exemplo, terá todo o processo feito antes pelo servidor, para assim entregar o conteúdo.
 
-> --**`HTML maior`**.<br/>
+> - **`HTML maior`**.<br/>
 Já que ele entrega todo o HTML montado, consequentemente será maior. Essa podemos também considerar como uma "vantagem" talvez.
 
-> --**`Reload completo nas mudanças de rota`**.<br/>
+> - **`Reload completo nas mudanças de rota`**.<br/>
 Toda vez que fazemos uma chamada, ele vai até o servidor e precisa recarregar para fazer a chamada. Da para disfarçarmos esse reload, criando uma situação com microinteração ou algo assim. Mais de qualquer forma ele precisa ir até o servidor para retornar o conteúdo.
 
+Hoje a gente viu sobre os três tipos de aplicação e entendemos o fluxogramas, vantagens e desvantagens de cada um. Entendemos que o NextJS suporta o (SSG), (SSR) e também o (SPA). Essa é uma grande vantagens do NextJS.
 
+Imaginno que agora você está se perguntando:<br/><br/>**
+Quando posso utilizar um ou outro ?**<br/>
+Vamos lá, entenderemos quando utilizar cada um deles abaixo:
+
+- Static Site Generation (SSG)
 
 
 
