@@ -52,8 +52,8 @@ Depois de baixado o App, tudo será feito no browser. Onde você não precisará
 > - **`Site rápido após o load inicial`**.<br/>
 Após feito o load inicial, onde foi baixado todo o JavaScript, depois de baixado ele já carregou tudo o que precisava.
 
-> - **`Ótimo para aplicações web`**.<br/>
-Por exemplo: Facebook web, Spotify web, Twitter Web, entre tantos outros que utilizam o SPA.
+> - **`Ótimo para Aplicações Web`**.<br/>
+Por exemplo: Facebook Web, Spotify Web, Twitter Web, entre tantos outros que utilizam o SPA.
 
 > - **`Possui diversas bibliotecas para trabalhar`**.
 
@@ -66,7 +66,7 @@ Se seu arquivo JavaScript for muito grande, irá demorar mais para iniciar o sit
 Pois cada página você terá um arquivo JavaScript grande, outro pequeno e aí acaba tendo algumas inconsistência.
 
 > - **`Dificuldades no SEO`**.<br/>
-Como o arquivo JavaScript é carregado antes, para então fazer requisições na **api** e assim poder renderizar. Acontece que ali você ainda não tem o conteúdo, você tem apenas o esqueleto do site e assim o google dificilmente encontrará o seu site.
+Como o arquivo JavaScript é carregado antes, para então fazer requisições na **api** e assim poder renderizar. Acontece que ali você ainda não tem o conteúdo, você tem apenas o esqueleto do site e assim o Google dificilmente encontrará o seu site.
 
 Bom, citamos um pouco das vantagens e desvantagens que o *Server Side Rendering* nos oferece. Seguiremos para o próximo e último tipo abaixo.
 
@@ -75,7 +75,7 @@ Bom, citamos um pouco das vantagens e desvantagens que o *Server Side Rendering*
 ### Vantagens
 
 > - **`Ótimo em SEO`**.<br/>
-Pois tudo é renderizado no lado do servidor. Quando o google abre a página do site e ele recebe os dados, já tem tudo pronto ali pra ele. Consequentemente ele indexa muito melhor.
+Pois tudo é renderizado no lado do servidor. Quando o Google abre a página do site e ele recebe os dados, já tem tudo pronto ali pra ele. Consequentemente ele indexa muito melhor.
 
 > - **`Meta tags com previews mais adequados`**.<br/>
 As meta tags já estão com os previews certo, pois como ele consegue fazer toda a parte descrita acima de pegar os dados como, título, descrição, imagens e tudo mais. Logo as meta tags estará correta de acordo com a aquela página em si.
@@ -99,15 +99,33 @@ Toda vez que fazemos uma chamada, ele vai até o servidor e precisa recarregar p
 
 Hoje a gente viu sobre os três tipos de aplicação e entendemos o fluxogramas, vantagens e desvantagens de cada um. Entendemos que o NextJS suporta o (SSG), (SSR) e também o (SPA). Essa é uma grande vantagens do NextJS.
 
-Imaginno que agora você está se perguntando:<br/><br/>**
+Imagino que agora você está se perguntando:<br/><br/>**
 Quando posso utilizar um ou outro ?**<br/>
 Vamos lá, entenderemos quando utilizar cada um deles abaixo:
 
-- Static Site Generation (SSG)
+- **Static Site Generation (Gatsby, NextJS)**
 
+> Quando a performance foi muito importante.
 
+> Site simples sem muito interação do usuário.
 
+> Se você é a única pessoa que publica conteúdo.
 
+> Se você faz pouca atualização no site.
 
+> Se o site é simples com poucas páginas.
 
+Exemplos: Portifólios, Blogs e Landing Pages.
+
+- **Single Page Application (SPA)**
+
+> Quando não tem tanta necessidade de indexar informações no Google.
+
+> Quando o usuário faz muitas interações na página.
+
+> Quando se tem informações diferentes para cada usuário (Autenticação, por exemplo).
+
+Exemplos: Facebook Web, Spotify Web, Twitter Web.
+
+- **Single Page Application (SPA)**
 
