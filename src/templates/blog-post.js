@@ -37,7 +37,7 @@ export default props => {
           bg={getThemeColor()}
           duration={0.8}
         >
-          ← Voltar
+          ← Voltar na listagem
         </ButtonBack>
 
         <PostDate>
