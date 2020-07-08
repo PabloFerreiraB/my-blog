@@ -81,7 +81,11 @@ Pois tudo é renderizado no lado do servidor. Quando o google abre a página do 
 As meta tags já estão com os previews certo, pois como ele consegue fazer toda a parte descrita acima de pegar os dados como, título, descrição, imagens e tudo mais. Logo as meta tags estará correta de acordo com a aquela página em si.
 
 > -- **``Melhor performance para o usuário``**.<br/>
-Isso quer dizer que o conteúdo será visto mais rápido.
+Isso quer dizer que o conteúdo será visto mais rápido. Como já entregamos tudo pronto, pois foi renderizado tudo no servidor não terá demora.
+
+> --**``Menor processamento do lado do usuário``**.<br/>
+Como assim? Como já foi dito acima que tudo é renderizado no servidor, o browser do usuário não terá esforços para exibir o conteúdo em tela. Logo ele tem uma vantagem para dispositivos mais fracos.
+
 
 
 
