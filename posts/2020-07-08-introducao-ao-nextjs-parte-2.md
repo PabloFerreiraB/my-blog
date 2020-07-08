@@ -97,10 +97,12 @@ Já que ele entrega todo o HTML montado, consequentemente será maior. Essa pode
 > - **`Reload completo nas mudanças de rota`**.<br/>
 Toda vez que fazemos uma chamada, ele vai até o servidor e precisa recarregar para fazer a chamada. Da para disfarçarmos esse reload, criando uma situação com microinteração ou algo assim. Mais de qualquer forma ele precisa ir até o servidor para retornar o conteúdo.
 
-Hoje a gente viu sobre os três tipos de aplicação e entendemos o fluxogramas, vantagens e desvantagens de cada um. Entendemos que o NextJS suporta o (SSG), (SSR) e também o (SPA). Essa é uma grande vantagens do NextJS.
+Hoje a gente viu sobre os três tipos de aplicação e entendemos o fluxogramas, vantagens e desvantagens de cada um. Entendemos que o NextJS suporta o (SSG), (SSR) e também o (SPA). Essa é uma grande vantagens do NextJS.<br/><br/>
+___
+<br/>
+Imagino que agora você está se perguntando:<br/>
 
-Imagino que agora você está se perguntando:<br/><br/>**
-Quando posso utilizar um ou outro ?**<br/>
+**Quando posso utilizar um ou outro ?**<br/>
 Vamos lá, entenderemos quando utilizar cada um deles abaixo:
 
 - **Static Site Generation (Gatsby, NextJS)**
@@ -138,3 +140,9 @@ Vamos lá, entenderemos quando utilizar cada um deles abaixo:
 > Quando precisa de uma boa indexação no Google.
 
 **Exemplos:** E-Commerce e Sites de Notícias.
+
+Bom, chegamos ao fim de mais um post, finalizando essa segunda parte. Espero que vocês possam ter entendido o que é o NextJS e como ele funciona. Quais as diferenças dele para outros Frameworks existentes e também quais tipos utilizar de acordo com suas necessidades.
+
+No próximo post iremos conhecer e entender um pouco sobre o **GraphQL**.
+
+Até a próxima...
