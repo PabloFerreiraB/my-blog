@@ -1,7 +1,7 @@
 ---
 title: Introdução ao NextJS - Parte 2
-description: "Quais são as vantagens e desvantagens de cada um: Static Site
-  Generation, Client Site Rendering e Server Side Rendering."
+description: Quais são as vantagens e desvantagens do Static Site Generation,
+  Client Site Rendering e Server Side Rendering.
 date: 2020-07-08T05:09:47.000Z
 image: /assets/img/ssr-nextjs-reactjs.png
 category: dev
