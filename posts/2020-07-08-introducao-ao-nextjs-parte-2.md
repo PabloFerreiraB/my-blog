@@ -115,7 +115,7 @@ Vamos lá, entenderemos quando utilizar cada um deles abaixo:
 
 > Se o site é simples com poucas páginas.
 
-Exemplos: Portifólios, Blogs e Landing Pages.
+**Exemplos:** Portifólios, Blogs e Landing Pages.
 
 - **Single Page Application (SPA)**
 
@@ -125,7 +125,16 @@ Exemplos: Portifólios, Blogs e Landing Pages.
 
 > Quando se tem informações diferentes para cada usuário (Autenticação, por exemplo).
 
-Exemplos: Facebook Web, Spotify Web, Twitter Web.
+**Exemplos:** Facebook Web, Spotify Web, Twitter Web.
 
-- **Single Page Application (SPA)**
+- **Server Side Rendering**
 
+> Quando tem necessidades de um SPA, mais precisa de um loading mais rápido.
+
+> Quando muda o conteúdo frequentemente.
+
+> Quando trabalha com um número muito grande de páginas.
+
+> Quando precisa de uma boa indexação no Google.
+
+**Exemplos:** E-Commerce e Sites de Notícias.
