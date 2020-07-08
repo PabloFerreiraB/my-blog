@@ -2,7 +2,7 @@
 title: Introdução ao NextJS - Parte 2
 description: Quais são as vantagens e desvantagens do Static Site Generation,
   Client Site Rendering e Server Side Rendering.
-date: 2020-07-08 06:39:36
+date: 2020-07-08T06:39:36.000Z
 image: /assets/img/ssr-nextjs-reactjs.png
 category: dev
 background: "#617222"
@@ -31,7 +31,7 @@ Nessa post retorno para entendermos as vantagens e desvantagens de **Static Site
 
 - **``Dificuldades para realizar atualizações constantes``**. Caso sua aplicação precisa de atualizações constantes, tipo um E-Commerce. Pois toda hora terá que realizar o build novo, e se cada build levar em torno de 15 minutos, toda alteração por mais simples que seja levará os 15 minutos.
 
-Bom, citamos um pouco das vantagens e desvantagens que o ``Static Site Generationso `` nos oferece. Seguiremos para o próximo.
+Bom, citamos um pouco das vantagens e desvantagens que o ``Static Site Generationso `` nos oferece. Seguiremos para o próximo abaixo.
 
 ## Single Page Application (SPA)
 
@@ -51,4 +51,23 @@ Bom, citamos um pouco das vantagens e desvantagens que o ``Static Site Generatio
 
 - **``Performance imprevisível``**. Pois cada página você terá um arquivo JavaScript grande, outro pequeno e aí acaba tendo algumas inconsistência.
 
-- **``Dificuldades no SEO``**. Como o arquivo JavaScript é carregado antes
+- **``Dificuldades no SEO``**. Como o arquivo JavaScript é carregado antes, para então fazer requisições na **api** e assim poder renderizar. Acontece que ali você ainda não tem o conteúdo, você tem apenas o esqueleto do site e assim o google dificilmente encontrará o seu site.
+
+Bom, citamos um pouco das vantagens e desvantagens que o ``Server Side Rendering`` nos oferece. Seguiremos para o próximo e último tipo abaixo.
+
+## Server Side Rendering
+
+### Vantagens
+
+
+
+
+
+
+
+
+
+
+
+
+
