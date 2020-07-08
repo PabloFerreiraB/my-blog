@@ -46,21 +46,27 @@ Bom, citamos um pouco das vantagens e desvantagens que o `Static Site Generation
 
 ### Vantagens
 
-> - **`Permite páginas ricas em interações sem recarregar`**. Depois de baixado o App, tudo será feito no browser. Onde você não precisará mais ficar dando reload.
+> - **`Permite páginas ricas em interações sem recarregar`**.<br/>
+Depois de baixado o App, tudo será feito no browser. Onde você não precisará mais ficar dando reload.
 
-> - **`Site rápido após o load inicial`**. Após feito o load inicial, onde foi baixado todo o JavaScript, depois de baixado ele já carregou tudo o que precisava.
+> - **`Site rápido após o load inicial`**.<br/>
+Após feito o load inicial, onde foi baixado todo o JavaScript, depois de baixado ele já carregou tudo o que precisava.
 
-> - **`Ótimo para aplicações web`**. Por exemplo: Facebook web, Spotify web, Twitter Web, entre tantos outros que utilizam o SPA.
+> - **`Ótimo para aplicações web`**.<br/>
+Por exemplo: Facebook web, Spotify web, Twitter Web, entre tantos outros que utilizam o SPA.
 
 > - **`Possui diversas bibliotecas para trabalhar`**.
 
 ### Desvantagens
 
-> - **`Load inicial pode ser muito grande`**. Se seu arquivo JavaScript for muito grande, irá demorar mais para iniciar o site.
+> - **`Load inicial pode ser muito grande`**.<br/>
+Se seu arquivo JavaScript for muito grande, irá demorar mais para iniciar o site.
 
-> - **`Performance imprevisível`**. Pois cada página você terá um arquivo JavaScript grande, outro pequeno e aí acaba tendo algumas inconsistência.
+> - **`Performance imprevisível`**.<br/>
+Pois cada página você terá um arquivo JavaScript grande, outro pequeno e aí acaba tendo algumas inconsistência.
 
-> - **`Dificuldades no SEO`**. Como o arquivo JavaScript é carregado antes, para então fazer requisições na **api** e assim poder renderizar. Acontece que ali você ainda não tem o conteúdo, você tem apenas o esqueleto do site e assim o google dificilmente encontrará o seu site.
+> - **`Dificuldades no SEO`**.<br/>
+Como o arquivo JavaScript é carregado antes, para então fazer requisições na **api** e assim poder renderizar. Acontece que ali você ainda não tem o conteúdo, você tem apenas o esqueleto do site e assim o google dificilmente encontrará o seu site.
 
 Bom, citamos um pouco das vantagens e desvantagens que o *Server Side Rendering* nos oferece. Seguiremos para o próximo e último tipo abaixo.
 
@@ -68,9 +74,14 @@ Bom, citamos um pouco das vantagens e desvantagens que o *Server Side Rendering*
 
 ### Vantagens
 
-> - **`Ótimo em SEO`**. Pois tudo é renderizado no lado do servidor. Quando o google abre a página do site e ele recebe os dados, já tem tudo pronto ali pra ele.
+> - **`Ótimo em SEO`**.<br/>
+Pois tudo é renderizado no lado do servidor. Quando o google abre a página do site e ele recebe os dados, já tem tudo pronto ali pra ele. Consequentemente ele indexa muito melhor.
 
-> - **`Meta tags com previews mais adequados`**. 
+> - **`Meta tags com previews mais adequados`**.<br/>
+As meta tags já estão com os previews certo, pois como ele consegue fazer toda a parte descrita acima de pegar os dados como, título, descrição, imagens e tudo mais. Logo as meta tags estará correta de acordo com a aquela página em si.
+
+> -- **``Melhor performance para o usuário``**.<br/>
+Isso quer dizer que o conteúdo será visto mais rápido.
 
 
 
