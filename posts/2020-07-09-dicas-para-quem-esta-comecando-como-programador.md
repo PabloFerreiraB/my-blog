@@ -2,7 +2,7 @@
 title: Dicas para quem está começando como programador
 description: Essas dicas podem ajudar muito a sua maneira de pensar quando está
   iniciando como programador.
-date: 2020-07-09 03:12:43
+date: 2020-07-09T03:12:43.000Z
 image: /assets/img/dicas-programador.png
 category: dev
 background: "#617222"
@@ -25,8 +25,20 @@ Independente da linguagem utilizada, programar sempre se baseia em conceitos bá
 
 Confesso que essa dica, foi pra mim com o que mais eu sofri no início. Eu queria aprender tudo rápido e no final das contas isso não da certo. Um erro nem comum de iniciantes é pular etapas do processo de aprendizagem, sem antes entender de fato aquilo que estudou. Por exemplo: `Acabou de ler um artigo/livro sobre Lógica de Programação`, porém não fez nenhum exercício para fixar o conhecimento aprendido. Muitas das vezes você apenas leu, mais não aprendeu. A prática é muito importante, pois assim você fixará o que estudou.
 
-## Dica 4: 
+## Dica 4: Pratique, faça exercícios do que estudou.
 
+Praticar é essencial para consolidar o conhecimento adquirido. Ao realizar exercícios, você perceberá coisas que antes não tinha percebido. Encontrará maneiras diferentes de realizar aquela tarefa, isso lhe ajudará a expandir ainda mais seu conhecimento.
+
+## Dica 5: Saiba pedir ajuda
+
+A maioria dos iniciantes quando se deparam com algum problema, correm para pedir ajuda em fóruns, grupos, colegas entre outros. É muito, mas muito importante que antes de você pedir ajuda para outra(s) pessoa(s), certifique primeiro que você tenha tentado solucionar o problema sozinho. Por exemplo: `depure cada linha do código para entender como ele funciona e se for um assunto que você não domina procure estudar sobre ele nas horas vagas.`
+
+Assim que você esgotou todas alternativas que encontrou e nada resolveu, aí sim é hora de pedir ajuda.<br/>
+
+**Porquê estou falando isso ?**
+Por que assim, você trabalhou seu cérebro a encontrar uma solução, mesmo que não tenha encontrado. Cada vez mais melhorá sua habilidade de encontrar soluções para os problemas.
+
+## Não desanime
 
 
 
