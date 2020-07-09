@@ -43,7 +43,7 @@ No final, as dificuldades serão superadas e **você se tornará um ótimo progr
 
 ## Dica 6: Compartilhe seu conhecimento
 
-**Ensinar é a melhor forma de aprender.**Todo conhecimento que você passa a frente, além de contribuir com a comunidade, acaba que você aprende ainda mais. Você também pode inspirar outras pessoas que assim como você aprendeu tal conteúdo, ela pode se interessar em aprender também.<br/><br/><br/><br/><br/>
+**Ensinar é a melhor forma de aprender.**Todo conhecimento que você passa a frente, além de contribuir com a comunidade, acaba que você aprende ainda mais. Você também pode inspirar outras pessoas que assim como você aprendeu tal conteúdo, ela pode se interessar em aprender também.
 
 ## Conclusão
 
