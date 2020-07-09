@@ -60,44 +60,44 @@ Por exemplo: Facebook Web, Spotify Web, Twitter Web e tantos outros que utilizam
 ### Desvantagens
 
 - **`Load inicial pode ser muito grande`.**<br/>
-Se seu arquivo JavaScript for muito grande, irá demorar mais para iniciar o site.
+Se seu arquivo JavaScript for muito grande, irá demorar mais para iniciar e ser exibido o site.
 
 - **`Performance imprevisível`.**<br/>
-Pois cada página você terá um arquivo JavaScript grande, outro pequeno e aí acaba tendo algumas inconsistência.
+Pois cada página você terá arquivos JavaScript grandes e pequenos, onde acaba tendo algumas inconsistências.
 
 - **`Dificuldades no SEO`.**<br/>
-Como o arquivo JavaScript é carregado antes, para então fazer requisições na **Api** e assim poder renderizar. Acontece que ali você ainda não tem o conteúdo, você tem apenas o esqueleto do site e assim o Google dificilmente encontrará o seu site.
+Como o arquivo JavaScript é carregado antes, para então fazer requisições na **Api** e assim poder renderizar. Acontece que ali você ainda não tem o conteúdo, você tem apenas o esqueleto do site e assim o Googlebot (Robô do Google) dificilmente encontrará o seu site.
 
-Bom, citamos um pouco das vantagens e desvantagens que o *Server Side Rendering* nos oferece. Seguiremos para o próximo e último tipo abaixo.
+Bom, citamos um pouco das vantagens e desvantagens que o *Server Side Rendering* nos oferece. Seguiremos para o próximo e último tipo abaixo:
 
 ## Server Side Rendering (SSR)
 
 ### Vantagens
 
 - **`Ótimo em SEO`.**<br/>
-Pois tudo é renderizado no lado do servidor. Quando o Google abre a página do site e ele recebe os dados, já tem tudo pronto ali pra ele. Consequentemente ele indexa muito melhor.
+Pois tudo é renderizado no lado do servidor. Quando o Googlebot (Robô do Google) abre a página do site ele recebe os dados e já tem tudo pronto pra ele. Consequentemente ele indexa muito melhor seu site.
 
 - **`Meta tags com previews mais adequados`.**<br/>
-As meta tags já estão com os previews certo, pois como ele consegue fazer toda a parte descrita acima de pegar os dados como, título, descrição, imagens e tudo mais. Logo as meta tags estará correta de acordo com a aquela página em si.
+As meta tags já estão com os previews certos, pois ele consegue fazer toda a parte descrita acima, que é pegar os dados como o: título, descrição, imagens e tudo mais. Logo as meta tags estarão corretas de acordo com a aquela página em si.
 
 - **`Melhor performance para o usuário`.**<br/>
-Isso quer dizer que o conteúdo será visto mais rápido. Como já entregamos tudo pronto, pois foi renderizado tudo no servidor não terá demora.
+Isso quer dizer que o conteúdo será visto mais rápido. Como já entregamos tudo pronto e foi renderizado tudo no servidor não terá demora.
 
 - **`Menor processamento do lado do cliente`.**<br/>
-Como assim? Como já foi dito acima que tudo é renderizado no servidor, o browser do cliente não terá esforços para exibir o conteúdo em tela. Assim ele tem uma vantagem para dispositivos mais fracos.
+Como assim? Como foi dito acima, tudo é renderizado no servidor. O browser do cliente não terá esforços para exibir o conteúdo em tela e assim tem uma vantagem para dispositivos mais fracos.
 
 ### Desvantagens
 
 - **`TTFB (Time to first byte) maior`.**<br/>
-Acontece que o servidor irá preparar tudo para antes para entregar todo o conteúdo. Então quando você acessa uma url do site por exemplo, terá todo o processo feito antes pelo servidor, para assim entregar o conteúdo.
+Acontece que o servidor irá preparar tudo antes para entregar o conteúdo. Então quando você acessa uma URL de um site por exemplo, terá todo o processo feito antes pelo servidor.
 
 - **`HTML maior`.**<br/>
-Já que ele entrega todo o HTML montado, consequentemente será maior. Essa podemos também considerar como uma "vantagem" talvez.
+Já que ele entrega todo o HTML montado, consequentemente será maior. Essa podemos talvez considerar até como uma **"vantagem".**
 
 - **`Reload completo nas mudanças de rota`.**<br/>
-Toda vez que fazemos uma chamada, ele vai até o servidor e precisa recarregar para fazer a chamada. Da para disfarçarmos esse reload, criando uma situação com microinteração ou algo assim. Mais de qualquer forma ele precisa ir até o servidor para retornar o conteúdo.
+Toda vez que fazemos uma chamada, ele vai até o servidor e precisa recarregar para retornar o conteúdo. Porém da para disfarçarmos esse Reload da tela criando uma situação com Microinteração ou algo assim. Mas de qualquer forma ele precisará ir até o servidor para retornar o conteúdo.
 
-Hoje a gente viu sobre os três tipos de aplicação e entendemos o fluxogramas, vantagens e desvantagens de cada um. Entendemos que o NextJS suporta o (SSG), (SSR) e também o (SPA). Essa é uma grande vantagens do NextJS.<br/>
+Hoje vimos sobre os três tipos de aplicação e entendemos o fluxogramas, vantagens e desvantagens de cada um. Entendemos que o NextJS suporta o (SSG), (SSR) e também o (SPA). Essa é uma grande vantagem do NextJS.<br/>
 
 Imagino que agora você está se perguntando:
 
