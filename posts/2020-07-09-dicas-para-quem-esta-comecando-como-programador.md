@@ -43,8 +43,11 @@ Por que assim, você trabalhou seu cérebro a encontrar uma solução, mesmo que
 É completamente normal nos depararmos com dificuldades, é aí que bate aquela tristeza e frustração. Acontece isso com todo mundo, é normal acredite. Não será fácil, mas **não desanime**, a programação é bastante desafiadora, porém traz muitas recompensas.
 No final, as dificuldades serão superadas e **você se tornará um ótimo programador.**
 
-## Dica 7: 
+## Dica 7: Compartilhe seu conhecimento
 
+**Ensinar é a melhor forma de aprender.**Todo conhecimento que você passa a frente, além de contribuir com a comunidade, acaba que você aprende ainda mais. Você também pode inspirar outras pessoas que assim como você aprendeu tal conteúdo, ela pode se interessar em aprender também.<br/><br/><br/><br/>
+
+## Conclusão
 
 
 
