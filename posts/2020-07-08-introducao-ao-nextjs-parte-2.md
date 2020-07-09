@@ -1,13 +1,13 @@
 ---
 title: Introdução ao NextJS - Parte 2
-description: Quais são as vantagens e desvantagens do Static Site Generation,
-  Client Site Rendering e Server Side Rendering.
+description: Conheça quais são as vantagens e desvantagens do Static Site
+  Generation, Client Site Rendering e Server Side Rendering.
 date: 2020-07-08T06:39:36.000Z
 image: /assets/img/ssr-nextjs-reactjs.png
 category: dev
 background: "#617222"
 ---
-Nessa post retorno para entendermos as vantagens e desvantagens de **Static Site Generation**, **Client Site Rendering** e **Server Side Rendering**. Caso ainda não tenha consultado o primeiro artigo ou até mesmo gostaria de revê-lo, acesse o link a seguir:<br/>
+Nesse post retorno para entendermos as vantagens e desvantagens de **Static Site Generation**, **Client Site Rendering** e **Server Side Rendering**. Caso ainda não tenha lido o primeiro artigo ou até mesmo gostaria de revê-lo, acesse o link a abaixo:<br/>
 
 [Introdução ao NextJS - Parte 1 | O que é, qual a diferença e quando usar ?](https://pabloferreira.netlify.app/introducao-ao-nextjs-parte-1/)
 
@@ -18,10 +18,10 @@ E o primeiro que veremos será o Static Site Generation. Sem mais enrolação va
 ### Vantagens
 
 - **`Uso quase nulo do servidor`**.<br/>
-Como já foi renderizado os arquivos HTML, CSS e JS tudo antes, o servidor não terá nenhum processo para rodar.
+Como já foi renderizado antes os arquivos HTML, CSS e JS, o servidor não terá nenhum processo para rodar.
 
-- **`Pode ser servidor em uma CDN`**.<br/>
-Consequentemente terá um cache melhor, pois não precisará trazer toda hora os dados, tendo no cache retornará dele e pronto.
+- **`Pode ser servidor em uma CDN (Content Delivery Network)`**.<br/>
+Consequentemente terá um cache melhor, pois não precisará pegar todas vez os dados, tendo no cache retornará dele e pronto.
 
 - **`Melhor performance entre todos`**.<br/>
 As duas opções acima explica o motivo.
@@ -31,14 +31,14 @@ Qualquer servidor consegue rodar arquivos estáticos.
 
 ### Desvantagens
 
-- **`Tempo de build pode ser bem alto`**.<br/>
-Caso você tiver muitas páginas no seu site, você precisará criar todas essas páginas, esse processo é o processo do build. Consequentemente o build pode ser bem demorado.
+- **`Tempo de Build pode ser bem alto`**.<br/>
+Caso seu projeto tenha muitas páginas, precisará criar todas elas, essa ação é o processo do Build. Consequentemente o Build pode ser bem demorado. Algo que atrapalhará e muito.
 
 - **`Dificuldades para escalar em aplicações grandes`**.<br/>
-Você terá que criar todas as páginas antes, e se a aplicação se muito grande, você terá bastante dificuldades para controlar.
+Você terá que criar todas as páginas antes, e se a aplicação for muito grande, você terá bastante dificuldades para controlar isso.
 
 - **`Dificuldades para realizar atualizações constantes`**.<br/>
-Caso sua aplicação precisa de atualizações constantes, tipo um E-Commerce. Pois toda hora terá que realizar o build novo, e se cada build levar em torno de 15 minutos, toda alteração por mais simples que seja levará os 15 minutos.
+Caso sua aplicação precisa de atualizações constantes, tipo um E-Commerce. Pois toda hora terá que realizar o Build novo, e se cada Build levar em torno de 15 minutos, toda alteração por mais simples que seja levará os 15 minutos.
 
 Bom, citamos um pouco das vantagens e desvantagens que o `Static Site Generation` nos oferece. Seguiremos para o próximo abaixo.
 
