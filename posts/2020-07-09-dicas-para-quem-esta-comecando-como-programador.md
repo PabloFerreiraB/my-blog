@@ -35,10 +35,15 @@ A maioria dos iniciantes quando se deparam com algum problema, correm para pedir
 
 Assim que você esgotou todas alternativas que encontrou e nada resolveu, aí sim é hora de pedir ajuda.<br/>
 
-**Porquê estou falando isso ?**
+**Porquê estou falando isso ?**<br/>
 Por que assim, você trabalhou seu cérebro a encontrar uma solução, mesmo que não tenha encontrado. Cada vez mais melhorá sua habilidade de encontrar soluções para os problemas.
 
-## Não desanime
+## Dica 6: Não desanime
+
+É completamente normal nos depararmos com dificuldades, é aí que bate aquela tristeza e frustração. Acontece isso com todo mundo, é normal acredite. Não será fácil, mas **não desanime**, a programação é bastante desafiadora, porém traz muitas recompensas.
+No final, as dificuldades serão superadas e **você se tornará um ótimo programador.**
+
+## Dica 7: 
 
 
 
