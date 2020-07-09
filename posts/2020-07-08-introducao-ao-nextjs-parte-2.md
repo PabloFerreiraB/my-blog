@@ -107,9 +107,9 @@ Vamos lá, entenderemos quando utilizar cada um deles:
 
 > **Static Site Generation (Gatsby, NextJS)**
 
-- Quando a performance foi muito importante.
+- Quando a performance for muito importante.
 
-- Site simples sem muito interação do usuário.
+- Site simples sem muita interação do usuário.
 
 - Se você é a única pessoa que publica conteúdo.
 
@@ -117,32 +117,32 @@ Vamos lá, entenderemos quando utilizar cada um deles:
 
 - Se o site é simples com poucas páginas.
 
-**Exemplos:** Portifólios, Blogs e Landing Pages.
+**Exemplos:** Portfólios, Blogs e Landing Pages.
 
 > **Single Page Application (SPA)**
 
 - Quando não tem tanta necessidade de indexar informações no Google.
 
-- Quando o usuário faz muitas interações na página.
+- Quando o usuário faz muitas interações nas páginas.
 
-- Quando se tem informações diferentes para cada usuário (Autenticação, por exemplo).
+- Quando se tem informações diferentes para cada usuário (Por exemplo Autenticação).
 
 **Exemplos:** Facebook Web, Spotify Web, Twitter Web.
 
 > **Server Side Rendering**
 
-- Quando tem necessidades de um SPA, mais precisa de um loading mais rápido.
+- Quando tem necessidade de um SPA, mas precisa de um loading mais rápido.
 
 - Quando muda o conteúdo frequentemente.
 
-- Quando trabalha com um número muito grande de páginas.
+- Quando trabalha com número muito grande de páginas.
 
 - Quando precisa de uma boa indexação no Google.
 
 **Exemplos:** E-Commerce e Sites de Notícias.<br/><br/><br/><br/><br/>
 
 ## Conclusão
-Bom, chegamos ao fim de mais um post, finalizando essa segunda parte. Espero que vocês possam ter entendido o que é o NextJS e como ele funciona. Quais as diferenças dele para outros Frameworks existentes e também quais tipos utilizar de acordo com suas necessidades.
+Bom, chegamos ao fim de mais um post, finalizando com a introdução sobre NextJS onde foi abordados em duas partes. Espero que vocês possam ter entendido o que é o NextJS e como ele funciona, quais as diferenças dele para outros Frameworks existentes e também quais tipos utilizar de acordo com suas necessidades.
 
 No próximo post iremos conhecer e entender um pouco sobre o **GraphQL.**
 
