@@ -139,9 +139,10 @@ Vamos lá, entenderemos quando utilizar cada um deles:
 
 - Quando precisa de uma boa indexação no Google.
 
-**Exemplos:** E-Commerce e Sites de Notícias.<br/><br/><br/><br/><br/>
+**Exemplos:** E-Commerce e Sites de Notícias.
 
 ## Conclusão
+
 Bom, chegamos ao fim de mais um post, finalizando com a introdução sobre NextJS onde foi abordados em duas partes. Espero que vocês possam ter entendido o que é o NextJS e como ele funciona, quais as diferenças dele para outros Frameworks existentes e também quais tipos utilizar de acordo com suas necessidades.
 
 No próximo post iremos conhecer e entender um pouco sobre o **GraphQL.**
