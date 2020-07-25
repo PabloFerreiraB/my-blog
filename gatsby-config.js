@@ -70,7 +70,7 @@ module.exports = {
         name: `Pablo Ferreira`,
         short_name: `Pablo Ferreira`,
         start_url: `/`,
-        background_color: `#fff`,
+        background_color: `#101E26`,
         theme_color: `#101E26`,
         display: `minimal-ui`,
         icon: `static/assets/img/favicon.png`, // This path is relative to the root of the site.
