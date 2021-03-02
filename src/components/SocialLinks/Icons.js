@@ -1,14 +1,16 @@
 import { Github } from "@styled-icons/boxicons-logos/Github"
 import { Twitter } from "@styled-icons/boxicons-logos/Twitter"
 import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin"
-import { Instagram } from "@styled-icons/boxicons-logos/Instagram"
+import { Telegram } from "@styled-icons/boxicons-logos/Telegram"
+import { Whatsapp } from "@styled-icons/boxicons-logos/Whatsapp"
 import { Mail } from '@styled-icons/feather/Mail';
 
 const Icons = {
     Github: Github,
     Twitter: Twitter,
     Linkedin: Linkedin,
-    Instagram: Instagram,
+    Telegram: Telegram,
+    Whatsapp: Whatsapp,
     Mail: Mail,
 }
 

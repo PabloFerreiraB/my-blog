@@ -163,7 +163,7 @@ export const MainContent = styled.section`
   }
 
   #twitter-widget-0,
-  .instagram-media,
+  .telegram-media,
   .twitter-tweet {
     margin: 20px auto !important;
   }
@@ -241,7 +241,7 @@ export const MainContent = styled.section`
     `}
   }
 
-  .instagram-media {
+  .telegram-media {
     margin: 1rem auto !important;
   }
 

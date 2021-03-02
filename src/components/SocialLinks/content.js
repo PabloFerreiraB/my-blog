@@ -12,8 +12,12 @@ const links = [
         url: "https://www.linkedin.com/in/PabloFerreiraB/",
     },
     {
-        label: 'Instagram',
-        url: "https://www.instagram.com/pabloferreira.14/",
+        label: 'Telegram',
+        url: "https://t.me/PabloFerreiraB/",
+    },
+    {
+        label: 'Whatsapp',
+        url: "https://api.whatsapp.com/send?phone=5517997015361&text=Ol%C3%A1%20Pablo%2C%20tudo%20bem%20%3F",
     },
     {
         label: 'Mail',

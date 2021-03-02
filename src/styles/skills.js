@@ -33,7 +33,7 @@ export const SkillsList = styled.ul`
   margin: 1rem 2.5rem 0 2.5rem;
 
   svg {
-    /* color: var(--postColor); */
+    color: #334444;
     width: 40px;
     height: 40px;
   }
@@ -50,13 +50,12 @@ export const SkillsItem = styled.li`
 export const SkillsWrapper = styled.div`
   background: #f4f4f4;
   border: 1px solid var(--borders);
-  margin-left: 10px;
-  margin-top: 10px;
-  width: 60px;
-  height: 60px;
+  margin: 10px 0 0 10px;
+  width: 65px;
+  height: 65px;
   display: flex;
   justify-content: space-evenly;
-  border-radius: 3px;
+  border-radius: 50%;
   align-items: center;
 `;
 
