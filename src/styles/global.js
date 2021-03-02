@@ -64,20 +64,20 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body.dark {
-    --borders: #38444d;
+    --borders: #1e2933;
     --texts: #8899a6;
     --postColor: #fff;
     --highlight: #1fa1f2;
-    --mediumBackground: #061F2F;
-    --background: #101E26;
+    --mediumBackground: #131419;
+    --background: #121212;
     --white: #fff;
     --black: #222;
   }
 
   body.light {
-    --borders: #dedede;
+    --borders: #dcdcdc;
     --postColor: #111;
-    --texts: #555555;
+    --texts: #444444;
     --highlight: #1fa1f2;
     --mediumBackground: #f0f0f3;
     --background: #fff;

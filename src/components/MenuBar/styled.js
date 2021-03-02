@@ -49,6 +49,14 @@ export const MenuBarGroupMobile = styled.div`
   `}
 `
 
+export const MenuBarGroupDesktop = styled.div`
+  display: block;
+
+  ${media.lessThan('large')`
+    display: none;
+  `}
+`
+
 export const MenuBarLink = styled(AniLink)`
   display: block;
 

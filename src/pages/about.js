@@ -15,28 +15,25 @@ const AboutPage = () => (
         <MainContent>
             <h1>Sobre mim</h1>
             <p>
-                Meu nome é Pablo Ferreira Branzan, nasci em Macaubal-SP, atualmente moro em São José do Rio Preto-SP e trabalho na
-                <a href="https://stefanini.com/pt-br" target="_blank" rel="noopener noreferrer" > Stefanini </a> como Desenvolvedor Fullstack.
+                Meu nome é Pablo Ferreira, atualmente estou trabalhando como Desenvolvedor Front-end para <a href="https://www.digitalbusiness.com.br" target="_blank" rel="noopener noreferrer" >
+                Digital Business </a> no modelo PJ.
             </p>
 
             <h2>Habilidades</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS (Sass)</li>
-                <li>Css Frameworks (Bootstrap, Bulma)</li>
                 <li>Design Responsivo (Mobile First)</li>
-                <li>.NET Core</li>
+                <li>JavaScript (ES6/7)</li>
                 <li>Angular</li>
+                <li>Vue.js</li>
+                <li>React</li>
                 <li>Gatsby</li>
-                <li>Javascript (ES6/7)</li>
-                <li>NodeJS</li>
-                <li>.NET Framework</li>
-                <li>LINQ e Lambda</li>
                 <li>Git</li>
-                <li>MySQL / SQL Server</li>
+                <li>SEO</li>
                 <li>Scrum</li>
                 <li>Github</li>
-                <li>SEO</li>
+                <li>AWS</li>
             </ul>
 
             <h2>Contato</h2>

@@ -5,7 +5,7 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Pablo Ferreira`,
-    position: `Desenvolvedor FullStack`,
+    position: `Desenvolvedor Front-end`,
     description: `Autodidata e apaixonado por tecnologia.`,
     author: `@Pablo_Ferreira`,
     siteUrl: `https://pabloferreira.netlify.app/`,
@@ -70,8 +70,8 @@ module.exports = {
         name: `Pablo Ferreira`,
         short_name: `Pablo Ferreira`,
         start_url: `/`,
-        background_color: `#101E26`,
-        theme_color: `#101E26`,
+        background_color: `#121212`,
+        theme_color: `#121212`,
         display: `minimal-ui`,
         icon: `static/assets/img/favicon.png`, // This path is relative to the root of the site.
       },

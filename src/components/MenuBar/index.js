@@ -36,6 +36,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
     return (
         <S.MenuBarWrapper>
             <S.MenuBarGroup>
+
                 {/* Voltar para Home */}
                 <S.MenuBarLink
                     to="/"
@@ -49,6 +50,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                         <Home />
                     </S.MenuBarItem>
                 </S.MenuBarLink>
+
                 {/* Pesquisar */}
                 <S.MenuBarLink
                     to="/search/"
@@ -72,6 +74,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                 </S.MenuBarGroup>
             </S.MenuBarGroupMobile>
 
+            
             <S.MenuBarGroup>
                 {/* Mudar o tema */}
                 <S.MenuBarItem title="Mudar o tema"
@@ -91,15 +94,20 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                 >
                     <Light />
                 </S.MenuBarItem>
+
                 {/* Mudar visualização */}
-                <S.MenuBarItem title="Mudar visualização"
-                    onClick={() => {
-                        window.__setPreferredDisplay(isListMode ? "grid" : "list")
-                    }}
-                    className={display}
-                >
+                <S.MenuBarGroupDesktop>  
+                    <S.MenuBarItem
+                        title="Mudar visualização"
+                        className={display}
+                        onClick={() => {
+                            window.__setPreferredDisplay(isListMode ? "grid" : "list")
+                        }}
+                    >
                     {isListMode ? <Grid /> : <List />}
-                </S.MenuBarItem>
+                    </S.MenuBarItem>
+                </S.MenuBarGroupDesktop>
+                
                 {/* Ir para o Topo */}
                 <S.MenuBarItem title="Ir para o Topo" onClick={scrollToTop}>
                     <Arrow />

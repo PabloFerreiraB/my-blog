@@ -115,8 +115,7 @@ export const MainContent = styled.section`
 
   ul,
   ol {
-    list-style: disc;
-    padding-left: 2.5rem;
+    list-style: none;
     margin: 0 auto 1.6rem;
   }
 
