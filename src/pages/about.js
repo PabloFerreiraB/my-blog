@@ -14,19 +14,11 @@ const AboutPage = () => (
         />
         <MainContent>
             <h1>Sobre mim</h1>
-            <p>
-                Meu nome é Pablo Ferreira, sou Desenvolvedor Front-end. No meu tempo livre gosto de curtir minha família (👪), 
-                jogar e assistir futebol (⚽️), ouvir música (🎵), assistir filmes ou séries (🎞️) e diariamente estudando sobre tecnologia.
-            </p>
-
-            <p>
-                Atualmente estou trabalhando como Desenvolvedor Front-end para empresa <a href="https://www.digitalbusiness.com.br" target="_blank" rel="noopener noreferrer" >
-                Digital Business </a> no modelo PJ, atuando em um cliente de Portugal.
-            </p>
+            <p>Meu nome é Pablo Ferreira, sou Desenvolvedor Front-end. No meu tempo livre gosto de curtir minha família (👪), jogar e assistir futebol (⚽️), ouvir música (🎵), assistir filmes ou séries (🎞️) e diariamente estudo sobre tecnologia.</p>
+            <p>Atualmente estou trabalhando como Desenvolvedor Front-end para empresa <a href="https://www.digitalbusiness.com.br" target="_blank" rel="noopener noreferrer" > Digital Business </a> no modelo PJ, atuando em um cliente de Portugal.</p>
 
             <h2>Contato</h2>
             <p>Você pode entrar em contato comigo através de qualquer uma das minhas redes sociais.</p>
-
             <SocialLinks showOnMobile />
         </MainContent>
     </Layout>
