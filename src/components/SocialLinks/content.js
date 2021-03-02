@@ -14,7 +14,11 @@ const links = [
     {
         label: 'Instagram',
         url: "https://www.instagram.com/pabloferreira.14/",
-    }
+    },
+    {
+        label: 'Mail',
+        url: 'mailto:pablo_ferreira14@hotmail.com',
+    },
 ]
 
 export default links
