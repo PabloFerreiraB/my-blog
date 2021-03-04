@@ -12,7 +12,6 @@ const AboutPage = () => (
             title="Sobre mim"
             description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
         />
-        
         <MainContent>
             <h1>Sobre mim</h1>
             <p>Meu nome é Pablo Ferreira, moro em São José do Rio Preto - SP. No meu tempo livre gosto de curtir minha família (👪), jogar e assistir futebol (⚽️), ouvir música (🎵), assistir filmes ou séries (🎞️) e diariamente estudo sobre tecnologia.</p>
