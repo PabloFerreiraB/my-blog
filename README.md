@@ -1,4 +1,5 @@
 # Pablo Ferreira
+
 - Meu [Blog](https://pabloferreira.netlify.app/) pessoal.
 
 Utilizado:
@@ -7,5 +8,3 @@ Utilizado:
 - [React](https://reactjs.org/)
 - [GraphQL](https://graphql.org/)
 - [Netlify](https://www.netlify.com/)
-
-
