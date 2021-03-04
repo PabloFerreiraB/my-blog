@@ -71,8 +71,8 @@ const pluginConfig = [
   `gatsby-plugin-sitemap`,
   `gatsby-plugin-offline`,
   `gatsby-plugin-netlify-cms`,
-]
-
+],
+  
 module.exports = {
   siteMetadata: {
     title: `Pablo Ferreira`,
