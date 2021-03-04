@@ -60,7 +60,7 @@ module.exports = {
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
         indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
         queries,
-        chunkSize: 10000, // default: 1000
+        chunkSize: 10000,
         enablePartialUpdates: true,
       },
     },
@@ -73,11 +73,11 @@ module.exports = {
         background_color: `#121212`,
         theme_color: `#121212`,
         display: `minimal-ui`,
-        icon: `static/assets/img/favicon.png`, // This path is relative to the root of the site.
+        icon: `static/assets/img/favicon.png`,
       },
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify-cms`,
-  ],
+  ]
 }
