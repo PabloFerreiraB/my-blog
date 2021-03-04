@@ -3,8 +3,8 @@ title: Introdução ao NextJS - Parte 1
 description: O que é, quais as diferenças e quando usar ?
 date: 2020-07-04T09:21:50.000Z
 image: /assets/img/ssr-nextjs-reactjs.png
-category: dev
-background: "#617222"
+category: js
+background: "#EFD81D"
 ---
 
 ## O que é o NextJS?
