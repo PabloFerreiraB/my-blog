@@ -44,7 +44,7 @@ export const PostLink = styled(AniLink)`
 export const PostTag = styled.div`
   align-items: center;
   background: ${props => props.background ? props.background : 'var(--highlight)'};
-  border-radius: 10%;
+  border-radius: 5%;
   color: var(--white);
   display: flex;
   font-size: 1.2rem;
@@ -53,9 +53,10 @@ export const PostTag = styled.div`
   min-height: 70px;
   min-width: 70px;
   text-transform: uppercase;
+  padding: 10px;
 
   ${media.lessThan("large")`
-    border-radius: 5%;
+    border-radius: 2%;
     font-size: 1rem;
     min-height: auto;
     min-width: 80px;
@@ -68,20 +69,43 @@ export const PostTag = styled.div`
   }
 
   &.is-js {
-    background: #d6ba32;
+    background: #EFD81D;
     color: #000;
+  }
+
+  &.is-angular {
+    background: #D6002F;
+    color: #fff;
+  }
+
+  &.is-react {
+    background: #5ED3F3;
+    color: #000;
+  }
+
+  &.is-vue {
+    background: #3FB27F;
+    color: #000;
+  }
+
+  &.is-css {
+    background: #0264AB;
+    color: #fff;
+  }
+
+  &.is-html {
+    background: #DD4B25;
+    color: #fff;
+  }
+
+  &.is-git {
+    background: #E84E31;
+    color: #fff;
   }
 
   &.is-dev {
     background: #617222;
-  }
-
-  &.is-css {
-    background: #24809e;
-  }
-
-  &.is-html {
-    background: #b31917;
+    color: #fff;
   }
 `
 

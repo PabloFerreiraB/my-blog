@@ -5,6 +5,7 @@ import SEO from '../components/seo'
 import SocialLinks from '../components/SocialLinks'
 
 import { MainContent } from '../styles/base'
+import Emoji from '../utils/emoji'
 
 const AboutPage = () => (
     <Layout>
@@ -14,7 +15,7 @@ const AboutPage = () => (
         />
         <MainContent>
             <h1>Sobre mim</h1>
-            <p>Meu nome é Pablo Ferreira, moro em São José do Rio Preto - SP. No meu tempo livre gosto de curtir minha família (👪), jogar e assistir futebol (⚽️), ouvir música (🎵), assistir filmes ou séries (🎞️) e diariamente estudo sobre tecnologia.</p>
+            <p>Meu nome é Pablo Ferreira, moro em São José do Rio Preto - SP. No meu tempo livre gosto de curtir minha família <Emoji symbol="👪"/>, jogar e assistir futebol <Emoji symbol="⚽️"/>, ouvir música <Emoji symbol="🎵"/>, assistir filmes ou séries <Emoji symbol="🎞️"/> e diariamente estudo sobre tecnologia.</p>
             <p>Atualmente estou trabalhando como Desenvolvedor Front-end para empresa <a href="https://www.digitalbusiness.com.br" target="_blank" rel="noopener noreferrer" > Digital Business </a> no modelo PJ, atuando em um cliente de Portugal.</p>
 
             <h2>Contato</h2>

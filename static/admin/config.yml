@@ -31,7 +31,8 @@ collections:
           label: "Category",
           name: "category",
           widget: "select",
-          options: ["css", "js", "html", "dev"],
+          options:
+            ["js", "angular", "react", "vue", "css", "html", "git", "dev"],
         }
       - {
           label: "Background",
@@ -39,9 +40,13 @@ collections:
           widget: "select",
           options:
             [
-              { label: "css", value: "#24809e" },
-              { label: "js", value: "#d6ba32" },
-              { label: "html", value: "#b31917" },
+              { label: "js", value: "#EFD81D" },
+              { label: "angular", value: "#D6002F" },
+              { label: "react", value: "#5ED3F3" },
+              { label: "vue", value: "#3FB27F" },
+              { label: "css", value: "#0264AB" },
+              { label: "html", value: "#DD4B25" },
+              { label: "git", value: "#E84E31" },
               { label: "dev", value: "#617222" },
             ],
         }

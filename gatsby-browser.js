@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import SWUpdater from "./src/components/SWUpdater";
 
-require("prismjs/themes/prism-tomorrow.css")
+require("prismjs/themes/prism-tomorrow.css");
 
 function onServiceWorkerUpdateReady() { 
   const root = document.createElement('div');

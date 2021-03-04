@@ -45,6 +45,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                     bg={getThemeColor()}
                     duration={0.8}
                     title="Voltar para Home"
+                    activeClassName="active"
                 >
                     <S.MenuBarItem>
                         <Home />
@@ -59,6 +60,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                     bg={getThemeColor()}
                     duration={0.8}
                     title="Pesquisar"
+                    activeClassName="active"
                 >
                     <S.MenuBarItem>
                         <Search />

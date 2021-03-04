@@ -76,8 +76,8 @@ module.exports = {
         icon: `static/assets/img/favicon.png`,
       },
     },
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify-cms`,
   ]
 }
