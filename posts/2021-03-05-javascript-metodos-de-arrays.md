@@ -1,5 +1,5 @@
 ---
-title: "JavaScript: métodos de Arrays"
+title: Métodos de Arrays
 description: Neste post vamos aprender como usar alguns métodos de array no Javascript.
 date: 2021-03-05 05:55:35
 image: /assets/img/javascript_array_methods.jpeg
