@@ -6,11 +6,7 @@ import transitions from '../../styles/transitions'
 
 export const PostWrapper = styled.section`
   border-bottom: 1px solid var(--borders);
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 2rem 3rem;
+  padding: 1.5rem 3rem;
   width: 100%;
   transition: ${transitions.ALL};
 
@@ -43,7 +39,6 @@ export const PostLink = styled(AniLink)`
 `
 
 export const PostTag = styled.div`
-  margin-top: 1rem;
   align-items: center;
   background: ${props => props.background ? props.background : 'var(--highlight)'};
   border-radius: 5%;
@@ -52,9 +47,9 @@ export const PostTag = styled.div`
   font-size: 1.2rem;
   font-weight: 700;
   justify-content: center;
-  min-width: 70px;
-  text-transform: uppercase;
+  width: 110px;
   padding: 6px;
+  text-transform: uppercase;
 
   ${media.lessThan("large")`
     border-radius: 2%;
@@ -64,10 +59,6 @@ export const PostTag = styled.div`
     padding: .3rem .5rem;
     margin-bottom: .7rem;
   `}
-
-  body#grid & {
-    /* margin-bottom: 1.5rem; */
-  }
 
   &.is-js {
     background: #EFD81D;
@@ -114,7 +105,6 @@ export const PostInfo = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
-  /* margin-left: 1.5rem; */
 
   ${media.lessThan("large")`
     margin: 0;
