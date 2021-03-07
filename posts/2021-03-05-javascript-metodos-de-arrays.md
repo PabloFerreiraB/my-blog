@@ -67,6 +67,7 @@ array.slice(1, 3);
 Acima irá retornar o array com os elemento do 1 ao 3.
 
 
+
 ## Método join()
 
 O **join()** junta vários elementos de um array, tornando-os em uma string.
@@ -105,6 +106,7 @@ myString.split(' ', 3);
 No exemplo acima, o split() procura por 0 ou mais espaços em uma string e retorna as 3 primeiras divisões que encontrar.
 
 
+
 ## Método reverse()
 
 O **reverse()** inverte os itens de um array. O primeiro elemento do array se torna o último e o último torna-se o primeiro.
@@ -126,3 +128,12 @@ const array = [3, 5, 20, 35, 50].filter((item) => item >= 20);
 
 // [20, 35, 50];
 ```
+Nesse exemplo, eu filtrei o array informando que queria de retorno apenas os items que fosse maior ou igual a 20.
+
+
+
+## Conclusão
+
+E por hoje é só, foram apenas alguns métodos dentre tantos outros que temos no Javascript. Na próxima parte irei abordar outros bem legais também, só que iremos aprofundar mais em cenários pouco mais complexos.
+
+Espero que tenham gostado, até a próxima! 
