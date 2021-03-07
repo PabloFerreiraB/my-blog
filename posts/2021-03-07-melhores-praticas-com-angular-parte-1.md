@@ -18,20 +18,20 @@ Todos nós utilizamos as diretiva estrutural que inclui condicionalmente um mode
 
 Vamos ver abaixo um exemplo na prática:
 
-```javascript
+```typescript
 const isAnimalVisible = this.people?.id === this.people?.animal?.id;
 ```
  
 ```html
 // Condições vagas que precisam ser investigadas ❌
 
-<div> *ngIf="people?.id === people?.animal?.id;"<br>
+<div *ngIf="people?.id === people?.animal?.id">
    Conteúdo à ser exibido...                       
 </div>
 
 // Você pode entender por nomenclatura e expressões mais simples ✅
 
-<div> *ngIf="isAnimalVisible"
+<div *ngIf="isAnimalVisible">
    Conteúdo à ser exibido...
 </div>
 ```
