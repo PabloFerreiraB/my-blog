@@ -41,10 +41,10 @@ export const PostLink = styled(AniLink)`
 export const PostTag = styled.div`
   align-items: center;
   background: ${props => props.background ? props.background : 'var(--highlight)'};
-  border-radius: 5%;
   color: var(--white);
+  border-radius: 5%;
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   justify-content: center;
   width: 110px;
