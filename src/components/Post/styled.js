@@ -5,9 +5,11 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import transitions from '../../styles/transitions'
 
 export const PostWrapper = styled.section`
-  align-items: center;
   border-bottom: 1px solid var(--borders);
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 2rem 3rem;
   width: 100%;
   transition: ${transitions.ALL};
@@ -15,7 +17,6 @@ export const PostWrapper = styled.section`
   body#grid & {
     border: none;
     padding: 2rem 1rem;
-    flex-direction: column;
     justify-content: center;
   }
 
@@ -42,18 +43,18 @@ export const PostLink = styled(AniLink)`
 `
 
 export const PostTag = styled.div`
+  margin-top: 1rem;
   align-items: center;
   background: ${props => props.background ? props.background : 'var(--highlight)'};
   border-radius: 5%;
   color: var(--white);
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   justify-content: center;
-  min-height: 70px;
   min-width: 70px;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 6px;
 
   ${media.lessThan("large")`
     border-radius: 2%;
@@ -65,7 +66,7 @@ export const PostTag = styled.div`
   `}
 
   body#grid & {
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
   }
 
   &.is-js {
@@ -112,7 +113,8 @@ export const PostTag = styled.div`
 export const PostInfo = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 1.5rem;
+  margin-top: 1rem;
+  /* margin-left: 1.5rem; */
 
   ${media.lessThan("large")`
     margin: 0;

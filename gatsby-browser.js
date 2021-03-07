@@ -1,15 +1,15 @@
-import "lazysizes";
-import React from 'react';
-import ReactDOM from 'react-dom';
-import SWUpdater from "./src/components/SWUpdater";
+import "lazysizes"
+import React from 'react'
+import ReactDOM from 'react-dom'
+import SwUpdater from './src/components/SwUpdater'
 
-require("prismjs/themes/prism-tomorrow.css");
+require("prismjs/themes/prism-tomorrow.css")
 
-function onServiceWorkerUpdateReady() { 
-  const root = document.createElement('div');
-  document.body.appendChild(root);
+function onServiceWorkerUpdateReady() {
+  const root = document.createElement('div')
+  document.body.appendChild(root)
 
-  ReactDOM.render(<SWUpdater />, root);
+  ReactDOM.render(<SwUpdater />, root)
 }
 
 export { onServiceWorkerUpdateReady }
