@@ -50,7 +50,7 @@ export const SkillsItem = styled.li`
 export const SkillsWrapper = styled.div`
   background: #f4f4f4;
   border: 1px solid var(--borders);
-  margin: 10px 0 0 10px;
+  margin: 10px;
   width: 65px;
   height: 65px;
   display: flex;

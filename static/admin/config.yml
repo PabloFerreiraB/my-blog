@@ -32,7 +32,16 @@ collections:
           name: "category",
           widget: "select",
           options:
-            ["js", "angular", "react", "vue", "css", "html", "git", "dev"],
+            [
+              "javascript",
+              "angular",
+              "react",
+              "vue",
+              "css",
+              "html",
+              "git",
+              "dev",
+            ],
         }
       - {
           label: "Background",
@@ -40,7 +49,7 @@ collections:
           widget: "select",
           options:
             [
-              { label: "js", value: "#EFD81D" },
+              { label: "javascript", value: "#EFD81D" },
               { label: "angular", value: "#D6002F" },
               { label: "react", value: "#5ED3F3" },
               { label: "vue", value: "#3FB27F" },

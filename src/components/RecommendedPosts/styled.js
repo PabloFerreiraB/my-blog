@@ -7,13 +7,13 @@ import transitions from '../../styles/transitions'
 export const RecommendedWrapper = styled.section`
   border-bottom: 1px solid var(--borders);
   border-top: 1px solid var(--borders);
-  background: #192734;
+  background: var(--mediumBackground);
   display: flex;
 `
 
 export const RecommendedLink = styled(AniLink)`
   align-items: center;
-  background: #192734;
+  background: var(--mediumBackground);
   color: var(--highlight);
   display: flex;
   padding: 3rem;
