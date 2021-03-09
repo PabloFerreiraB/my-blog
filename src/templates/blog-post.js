@@ -17,7 +17,7 @@ import {
   ButtonBack
 } from '../styles/base'
 
-const BlogPost = props => {
+export default props => {
   const post = props.data.markdownRemark
   const next = props.pageContext.nextPost
   const previous = props.pageContext.previousPost
@@ -55,8 +55,6 @@ const BlogPost = props => {
     </Layout>
   )
 }
-
-export default BlogPost;
 
 export const query = graphql`
   query Post($slug: String!) {
