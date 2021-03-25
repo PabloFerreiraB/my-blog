@@ -29,7 +29,7 @@ export const PostLink = styled(AniLink)`
   text-decoration: none;
   transition: ${transitions.COLOR};
 
-  body#grid & {
+  body & {
     background-color: var(--background);
   }
 

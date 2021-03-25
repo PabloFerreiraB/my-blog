@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import RecommendedPost from "../components/RecommendedPosts"
-import Comments from "../components/Comments"
 
 import getThemeColor from "../utils/getThemeColor"
 
@@ -33,7 +32,7 @@ const BlogPost = props => {
         <ButtonBack
           to="/"
           cover
-          direction="right"
+          direction="left"
           bg={getThemeColor()}
           duration={0.8}
         >
@@ -51,7 +50,6 @@ const BlogPost = props => {
       </MainContent>
 
       <RecommendedPost next={next} previous={previous} />
-      <Comments url={post.fields.slug} title={post.frontmatter.title} />
     </Layout>
   )
 }

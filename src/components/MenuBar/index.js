@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react"
 import { Home } from "@styled-icons/boxicons-solid/Home"
 import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
 import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
-import { Bulb as Light } from "@styled-icons/boxicons-regular/Bulb"
+import { Lightbulb as Light } from "@styled-icons/material-outlined/Lightbulb"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { ListUl as List } from "@styled-icons/fa-solid/ListUl"
 import { Menu } from '@styled-icons/boxicons-regular/Menu'
@@ -11,8 +11,6 @@ import { Menu } from '@styled-icons/boxicons-regular/Menu'
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
-
-import scrollToTop from '../../utils/scrollToTop';
 
 const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
     const [theme, setTheme] = useState(null)
@@ -111,7 +109,10 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                 </S.MenuBarGroupDesktop>
                 
                 {/* Ir para o Topo */}
-                <S.MenuBarItem title="Ir para o Topo" onClick={scrollToTop}>
+                <S.MenuBarItem 
+                     title="Ir para o Topo"
+                     onClick={() => window.scroll({ top: 0, behavior: "smooth" })}
+                >
                     <Arrow />
                 </S.MenuBarItem>
             </S.MenuBarGroup>

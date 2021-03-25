@@ -14,7 +14,6 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
-    // precisa ser o primeiro a trabalhar com gatsby-comment-images
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -51,6 +50,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
