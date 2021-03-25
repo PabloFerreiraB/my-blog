@@ -2,9 +2,9 @@
 
 - Meu [Blog](https://pabloferreira.netlify.app/) pessoal.
 
-Utilizado:
+Tecnologias utilizada:
 
-- [Gatsby](https://graphql.org/)
 - [React](https://reactjs.org/)
+- [Gatsby](https://graphql.org/)
 - [GraphQL](https://graphql.org/)
 - [Netlify](https://www.netlify.com/)
