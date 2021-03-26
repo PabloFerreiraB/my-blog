@@ -61,42 +61,42 @@ export const PostTag = styled.div`
   `}
 
   &.is-js {
-    background: #EFD81D;
-    color: #000;
+    background: #8899a6;
+    color: #fff;
   }
 
   &.is-angular {
-    background: #D6002F;
+    background: #8899a6;
     color: #fff;
   }
 
   &.is-react {
-    background: #5ED3F3;
-    color: #000;
+    background: #8899a6;
+    color: #fff;
   }
 
   &.is-vue {
-    background: #3FB27F;
-    color: #000;
+    background: #8899a6;
+    color: #fff;
   }
 
   &.is-css {
-    background: #0264AB;
+    background: #8899a6;
     color: #fff;
   }
 
   &.is-html {
-    background: #DD4B25;
+    background: #8899a6;
     color: #fff;
   }
 
   &.is-git {
-    background: #E84E31;
+    background: #8899a6;
     color: #fff;
   }
 
   &.is-dev {
-    background: #617222;
+    background: #8899a6;
     color: #fff;
   }
 `

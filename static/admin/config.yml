@@ -49,14 +49,14 @@ collections:
           widget: "select",
           options:
             [
-              { label: "javascript", value: "#EFD81D" },
-              { label: "angular", value: "#D6002F" },
-              { label: "react", value: "#5ED3F3" },
-              { label: "vue", value: "#3FB27F" },
-              { label: "css", value: "#0264AB" },
-              { label: "html", value: "#DD4B25" },
-              { label: "git", value: "#E84E31" },
-              { label: "dev", value: "#617222" },
+              { label: "javascript", value: "#334444" },
+              { label: "angular", value: "#334444" },
+              { label: "react", value: "#334444" },
+              { label: "vue", value: "#334444" },
+              { label: "css", value: "#334444" },
+              { label: "html", value: "#334444" },
+              { label: "git", value: "#334444" },
+              { label: "dev", value: "#334444" },
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }
