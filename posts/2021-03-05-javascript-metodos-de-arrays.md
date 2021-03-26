@@ -4,7 +4,7 @@ description: Neste post vamos aprender como usar alguns métodos de array no Jav
 date: 2021-03-05 05:55:35
 image: /assets/img/javascript_array_methods.jpeg
 category: javascript
-background: "#EFD81D"
+background: "#334444"
 ---
 ## Método push()
 
