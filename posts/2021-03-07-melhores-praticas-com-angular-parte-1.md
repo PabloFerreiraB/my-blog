@@ -4,7 +4,7 @@ description: Algumas dicas para escrever seu código melhor em Angular e também
 date: 2021-03-07 01:06:41
 image: /assets/img/angular.png
 category: angular
-background: "#D6002F"
+background: "#334444"
 ---
 ## Introdução
 
