@@ -29,21 +29,34 @@ export const RecommendedLink = styled(AniLink)`
 
   &:hover {
     background: var(--borders);
+    /* padding-right: 0px;
+    transition: padding-right 0.3s ease 0s; */
+  }
+
+  &.previous:hover {
+    padding-left: 0px;
+    transition: padding-left 0.3s ease 0s;
+  }
+
+  &.next:hover {
+    padding-right: 0px;
+    transition: padding-right 0.3s ease 0s;
   }
 
   &.previous {
+    justify-content: center;
     border-right: 1px solid var(--borders);
   }
 
   &.next {
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   &.previous:before {
     content: "\\2190";
     margin-right: 0.5rem;
   }
-  
+
   &.next:after {
     content: "\\2192";
     margin-left: 0.5rem;

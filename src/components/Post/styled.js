@@ -14,6 +14,11 @@ export const PostWrapper = styled.section`
     border: none;
     padding: 2rem 1rem;
     justify-content: center;
+
+    &:hover {
+      padding-left: 35px;
+      transition: padding-left 0.3s ease 0s;
+    }
   }
 
   ${media.lessThan("large")`
@@ -21,6 +26,11 @@ export const PostWrapper = styled.section`
     flex-direction: column;
     padding: 2rem 1rem;
   `}
+
+  &:hover {
+    padding-left: 35px;
+    transition: padding-left 0.3s ease 0s;
+  }
 `
 
 export const PostLink = styled(AniLink)`
