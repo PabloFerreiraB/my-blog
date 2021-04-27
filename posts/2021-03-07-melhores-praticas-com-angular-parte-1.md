@@ -82,7 +82,7 @@ Quando um array muda, o Angular renderiza novamente toda a árvore DOM. Mas quan
 </ul>
 ```
 
-No exemplo acima, cada vez que as alterações ocorrerem, toda a árvore DOM será renderizada novamente.
+No exemplo acima, está sem a função trackBy e cada vez que as alterações ocorrerem, toda a árvore DOM será renderizada novamente.
 
 * Usando a função trackBy
 
@@ -101,3 +101,9 @@ export class MyApp {
     }
 }
 ```
+
+* 4. Divida sua aplicação em pequenos componentes reutilizáveis.
+
+Isso pode ser o princípio de responsabilidade única. Componentes grandes são muito difíceis de depurar, gerenciar e testar. Se o componente se tornar grande, divida-o em componentes menores mais reutilizáveis ​​para reduzir a duplicação do código, para que possamos gerenciar, manter e depurar facilmente com menos esforço.
+
+![Static Site](/assets/img/Diagram.png "Diagram")
