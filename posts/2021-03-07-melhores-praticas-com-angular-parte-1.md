@@ -50,7 +50,7 @@ Vazamentos de memória observáveis ​​são muito comuns e encontrados em tod
 
 Seguem algumas dicas para evitar os vazamentos.
 
-* Usando ‘async pipe’:
+### Usando ‘async pipe’:
 
 Você pode utilizar observáveis ​​assinados ou usar ' `async pipe`' e promessa na view. Você deve evitar inscrever observables ​​no componente e vinculá-lo à view. Portanto, o resultado final é que, se não houver uma técnica correta, os vazamentos de memória podem ocorrer.
 
@@ -60,7 +60,7 @@ Você pode utilizar observáveis ​​assinados ou usar ' `async pipe`' e prom
 </ul>
 ```
 
-* Usando ‘take(1)’:
+### Usando ‘take(1)’:
 
 É um operador que completa a emissão tomando seu valor e permite que ‘take(1)’ não se inscreva quando um novo valor é encontrado. Isso garantirá que você obtenha os dados apenas uma vez. Esteja seguro com o ‘take(1)’ e evite vazamentos de memória facilmente. Exemplo:
 
@@ -84,7 +84,7 @@ Quando um array muda, o Angular renderiza novamente toda a árvore DOM. Mas quan
 
 No exemplo acima, está sem a função trackBy e cada vez que as alterações ocorrerem, toda a árvore DOM será renderizada novamente.
 
-* Usando a função trackBy
+### Usando a função trackBy
 
 ```html
 <ul>
