@@ -59,7 +59,6 @@ export const PostTag = styled.div`
   justify-content: center;
   width: 110px;
   padding: 6px;
-  text-transform: uppercase;
 
   ${media.lessThan("large")`
     border-radius: 2%;
@@ -71,42 +70,42 @@ export const PostTag = styled.div`
   `}
 
   &.is-js {
-    background: #8899a6;
+    background: #EFD81D;
     color: #fff;
   }
 
   &.is-angular {
-    background: #8899a6;
+    background: #D6002F;
     color: #fff;
   }
 
   &.is-react {
-    background: #8899a6;
+    background: #5ED3F3;
     color: #fff;
   }
 
   &.is-vue {
-    background: #8899a6;
+    background: #3FB27F;
     color: #fff;
   }
 
   &.is-css {
-    background: #8899a6;
+    background: #0264AB;
     color: #fff;
   }
 
   &.is-html {
-    background: #8899a6;
+    background: #DD4B25;
     color: #fff;
   }
 
   &.is-git {
-    background: #8899a6;
+    background: #E84E31;
     color: #fff;
   }
 
   &.is-dev {
-    background: #8899a6;
+    background: #617222;
     color: #fff;
   }
 `

@@ -33,14 +33,14 @@ collections:
           widget: "select",
           options:
             [
-              "javascript",
-              "angular",
-              "react",
-              "vue",
-              "css",
-              "html",
-              "git",
-              "dev",
+              "JavaScript",
+              "Angular",
+              "ReactJS",
+              "VueJS",
+              "CSS",
+              "HTML",
+              "GIT",
+              "Dev",
             ],
         }
       - {
@@ -49,14 +49,14 @@ collections:
           widget: "select",
           options:
             [
-              { label: "javascript", value: "#EFD81D" },
-              { label: "angular", value: "#D6002F" },
-              { label: "react", value: "#5ED3F3" },
-              { label: "vue", value: "#3FB27F" },
-              { label: "css", value: "#0264AB" },
-              { label: "html", value: "#DD4B25" },
-              { label: "git", value: "#E84E31" },
-              { label: "dev", value: "#617222" },
+              { label: "JavaScript", value: "#EFD81D" },
+              { label: "Angular", value: "#D6002F" },
+              { label: "ReactJS", value: "#5ED3F3" },
+              { label: "VueJS", value: "#3FB27F" },
+              { label: "CSS", value: "#0264AB" },
+              { label: "HTML", value: "#DD4B25" },
+              { label: "GIT", value: "#E84E31" },
+              { label: "Dev", value: "#617222" },
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }
