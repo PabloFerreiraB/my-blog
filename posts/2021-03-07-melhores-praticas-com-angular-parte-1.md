@@ -1,5 +1,5 @@
 ---
-title: Melhores práticas com Angular - Parte 1
+title: Boas práticas com Angular
 description: Algumas dicas para escrever seu código melhor em Angular e também Javascript.
 date: 2021-03-07 01:06:41
 image: /assets/img/angular.png
