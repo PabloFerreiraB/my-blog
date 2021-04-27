@@ -4,7 +4,7 @@ description: Conheça quais são as vantagens e desvantagens do Static Site
   Generation, Client Site Rendering e Server Side Rendering.
 date: 2020-07-08T06:39:36.000Z
 image: /assets/img/ssr-nextjs-reactjs.png
-category: react
+category: javascript
 background: "#5ED3F3"
 ---
 Nesse post retorno para entendermos as vantagens e desvantagens de **Static Site Generation**, **Client Site Rendering** e **Server Side Rendering.** _Caso ainda não tenha lido o primeiro artigo ou até mesmo gostaria de revê-lo, acesse o link a abaixo:_<br/>
