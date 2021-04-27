@@ -102,7 +102,7 @@ export class MyApp {
 }
 ```
 
-* 4. Divida sua aplicação em pequenos componentes reutilizáveis.
+## 4. **Divida sua aplicação em pequenos componentes reutilizáveis**.
 
 Isso pode ser o princípio de responsabilidade única. Componentes grandes são muito difíceis de depurar, gerenciar e testar. Se o componente se tornar grande, divida-o em componentes menores mais reutilizáveis ​​para reduzir a duplicação do código, para que possamos gerenciar, manter e depurar facilmente com menos esforço.
 
