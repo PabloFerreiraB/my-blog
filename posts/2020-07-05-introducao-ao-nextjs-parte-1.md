@@ -4,7 +4,7 @@ description: O que é, quais as diferenças e quando usar ?
 date: 2020-07-04T09:21:50.000Z
 image: /assets/img/ssr-nextjs-reactjs.png
 category: javascript
-background: "#334444"
+background: "#5ED3F3"
 ---
 
 ## O que é o NextJS?
