@@ -1,17 +1,17 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import styled from 'styled-components'
+import React from "react"
+import { Link } from "gatsby"
+import styled from "styled-components"
 
-import SEO from '../components/seo'
-import GlobalStyles from '../styles/global'
+import Seo from "../components/seo"
+import GlobalStyles from "../styles/global"
 
 const Container = styled.section`
   background: var(--background);
   align-items: center;
   color: #222;
   display: flex;
-  font-family: -apple-system, BlinkMacSystemFont, 'San Francisco',
-    'Helvetica Neue', Helvetica, Ubuntu, Roboto, Noto, 'Segoe UI', Arial,
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco",
+    "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial,
     sans-serif;
   flex-direction: column;
   height: 100vh;
@@ -56,7 +56,7 @@ const Button = styled(Link)`
 
 const NotFoundPage = () => (
   <Container>
-    <SEO title="404: Not found" />
+    <Seo title="404: Not found" />
     <GlobalStyles />
     <Title>404</Title>
     <Text>Página não encontrada</Text>

@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import RecommendedPost from "../components/RecommendedPosts"
 
 import getThemeColor from "../utils/getThemeColor"
@@ -13,8 +13,8 @@ import {
   PostDescription,
   PostDate,
   MainContent,
-  ButtonBack
-} from '../styles/base'
+  ButtonBack,
+} from "../styles/base"
 
 const BlogPost = props => {
   const post = props.data.markdownRemark
@@ -23,12 +23,12 @@ const BlogPost = props => {
 
   return (
     <Layout>
-      <SEO
+      <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        image={post.frontmatter.image} />
+        image={post.frontmatter.image}
+      />
       <PostHeader>
-
         <ButtonBack
           to="/"
           cover
@@ -54,7 +54,7 @@ const BlogPost = props => {
   )
 }
 
-export default BlogPost;
+export default BlogPost
 
 export const query = graphql`
   query Post($slug: String!) {

@@ -51,7 +51,7 @@ collections:
             [
               { label: "JavaScript", value: "#EFD81D" },
               { label: "Angular", value: "#D6002F" },
-              { label: "ReactJS", value: "#5ED3F3" },
+              { label: "ReactJS", value: "#61DAFB" },
               { label: "VueJS", value: "#3FB27F" },
               { label: "CSS", value: "#0264AB" },
               { label: "HTML", value: "#DD4B25" },
