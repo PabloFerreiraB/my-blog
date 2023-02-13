@@ -10,7 +10,6 @@ background: "#D6002F"
 ---
 ![RxJS Observable](/assets/img/rxjs-observable.png "RxJS Observable")
 
-## \
 \
 Existem dois tipos de Observables: **Unicast** e **Multicast**.
 
